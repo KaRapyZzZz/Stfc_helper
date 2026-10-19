@@ -39,9 +39,11 @@
     ],
     "win": {
       "target": [
-        "nsis",
-        "portable"
-      ]
+        "portable",
+        "zip",
+        "dir"
+      ],
+      "signAndEditExecutable": false
     },
     "nsis": {
       "oneClick": false,
