@@ -1,0 +1,53 @@
+{
+  "name": "stfc-command-helper",
+  "version": "1.0.0",
+  "description": "Star Trek Fleet Command (STFC) Helper & Knowledge Suite",
+  "main": "electron/main.js",
+  "author": "Aliaksei Paulau",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "electron .",
+    "electron:dev": "concurrently -k \"npm run dev\" \"electron .\"",
+    "dist:win": "npm run build && electron-builder --win nsis zip",
+    "fetch:data": "python scripts/fetch_stfc_data.py"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "concurrently": "^9.1.0",
+    "cross-env": "^7.0.3",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "vite": "^5.4.11"
+  },
+  "build": {
+    "appId": "com.stfc.helper",
+    "productName": "STFC Command Helper",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

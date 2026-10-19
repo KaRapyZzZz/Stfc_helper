@@ -1,0 +1,7 @@
+const { contextBridge, shell } = require('electron');
+
+contextBridge.exposeInMainWorld('electronAPI', {
+  openExternal: (url) => shell.openExternal(url),
+  platform: process.platform,
+  version: process.versions.electron
+});

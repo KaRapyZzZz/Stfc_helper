@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pmc",
+    "name": "Pike + Moreau + Chen (PMC)",
+    "type": "PvE Hostiles (Kinetic / Energy)",
+    "captain": "Christopher Pike",
+    "officer1": "Cath",
+    "officer2": "Chen",
+    "description": "Лучшая и самая популярная команда для фарма обычных врагов (Interceptors, Explorers, Battleships). Moreau активирует синергию Пайка (+синергия к защите и способностям), а Чен срезает урон врага практически в ноль.",
+    "synergy_bonus": "100% максимальная синергия",
+    "target_type": "Explorers / Battleships (Hostiles до 51 ур.)",
+    "captain_bonus": "+20% к способностям офицеров за каждый офицер синергии"
+  },
+  {
+    "id": "pmt",
+    "name": "Pike + Moreau + T'Laan (PMT)",
+    "type": "PvE Hostiles (Interceptors)",
+    "captain": "Christopher Pike",
+    "officer1": "Cath",
+    "officer2": "T'Laan",
+    "description": "Вариант PMC против Перехватчиков (Interceptors) и Swarm. T'Laan снижает кинетический урон перехватчиков на огромный процент.",
+    "synergy_bonus": "100% максимальная синергия",
+    "target_type": "Interceptors & Swarm",
+    "captain_bonus": "+20% к способностям офицеров за каждый офицер синергии"
+  },
+  {
+    "id": "kirk_spock_bones",
+    "name": "Kirk + Spock + Bones (Классика Энтерпрайз)",
+    "type": "PvE / PvP / Armadas",
+    "captain": "James T. Kirk",
+    "officer1": "Spock",
+    "officer2": "Leonard McCoy",
+    "description": "Кирк генерирует Мораль (Morale) каждый раунд, Спок восстанавливает щиты при активной Морали на колоссальное значение, а Боунс усиливает защитные статы всей команды.",
+    "synergy_bonus": "100% синергия Enterprise Crew",
+    "target_type": "Любые долгие бои, Армады, PvP",
+    "captain_bonus": "Кирк дает +к шансу вызова морали от Science/Engineering офицеров"
+  },
+  {
+    "id": "khan_crit",
+    "name": "Khan + Joachim + Marla",
+    "type": "Крит-урон / Армады",
+    "captain": "Khan",
+    "officer1": "Joachim",
+    "officer2": "Marla McGivers",
+    "description": "Хан с каждым попаданием накапливает шанс критического урона до 100%. Идеально для многозарядных кораблей против крепких боссов Армад.",
+    "synergy_bonus": "Augment Synergy",
+    "target_type": "Армады, Eclipse, Solo Armadas",
+    "captain_bonus": "+20% к урону критов"
+  },
+  {
+    "id": "borg_farming",
+    "name": "5 of 11 + 6 of 11 + 7 of 11 (Борги)",
+    "type": "Фарм лута / Пробитие",
+    "captain": "5 of 11",
+    "officer1": "6 of 11",
+    "officer2": "7 of 11",
+    "description": "5 из 11 увеличивает получение лута и ресурсов на сотни процентов. Отлично подходит для прокачки и фарма ресурсов.",
+    "synergy_bonus": "Unimatrix Borg Synergy",
+    "target_type": "Сбор лута, Probe, Спец-враги",
+    "captain_bonus": "Увеличение лута и пробития"
+  },
+  {
+    "id": "romulan_strike",
+    "name": "Sela + Vemet + Tal (Ромуланцы)",
+    "type": "Пробитие корпуса / Hull Breach",
+    "captain": "Sela",
+    "officer1": "Vemet",
+    "officer2": "Tal",
+    "description": "Накладывает Пробитие Корпуса (Hull Breach) и усиливает урон ромуланских крейсеров и линейных кораблей.",
+    "synergy_bonus": "Romulan Patriots Synergy",
+    "target_type": "PvP и армады против тяжелых кораблей",
+    "captain_bonus": "Бонус к пробитию брони"
+  },
+  {
+    "id": "mining_crew",
+    "name": "Stonn + Dupont + Barot (Майнинг)",
+    "type": "Сбор ресурсов",
+    "captain": "Stonn",
+    "officer1": "Dupont",
+    "officer2": "Barot",
+    "description": "Стонн ускоряет добычу руды, Барот — кристаллов, Дюпон — газа. Защищенный трюм и скорость добычи возрастают многократно.",
+    "synergy_bonus": "Survey / Mining Synergy",
+    "target_type": "Добыча руды, газа, кристаллов",
+    "captain_bonus": "Скорость добычи"
+  }
+]
