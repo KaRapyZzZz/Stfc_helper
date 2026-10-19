@@ -10,7 +10,8 @@ export default function App() {
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', background: 'radial-gradient(circle at 50% 10%, #172554 0%, #0a0d14 60%)' }}>
-      <Header />
+      {/* Header with navigation callback */}
+      <Header onNavigateTab={setActiveTab} />
 
       {/* Main Tabs Navigation */}
       <nav style={{ padding: '16px 20px 0 20px' }}>
@@ -108,7 +109,7 @@ export default function App() {
         background: '#090c14'
       }}>
         <div>Star Trek Fleet Command Helper • Репозиторий: KaRapyZzZz/Stfc_helper</div>
-        <div>Offline Database Loaded: 293 Officers, 116 Ships, 500 Systems • STFC.SPACE API</div>
+        <div>Offline Database: 293 Офицера, 116 Кораблей, 500 Систем, 600 Противников • STFC.SPACE API</div>
       </footer>
     </div>
   );

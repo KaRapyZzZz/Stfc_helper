@@ -10,7 +10,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Banks",
+    "hostile_strength": 15000
   },
   {
     "id": 71089,
@@ -23,7 +27,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dovaler",
+    "hostile_strength": 15000
   },
   {
     "id": 71088,
@@ -36,7 +44,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Izbel",
+    "hostile_strength": 15000
   },
   {
     "id": 71465,
@@ -49,7 +61,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Doma",
+    "hostile_strength": 15000
   },
   {
     "id": 71464,
@@ -62,7 +78,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Halkon",
+    "hostile_strength": 15000
   },
   {
     "id": 71466,
@@ -75,7 +95,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Heima",
+    "hostile_strength": 15000
   },
   {
     "id": 71714,
@@ -88,7 +112,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Barra",
+    "hostile_strength": 15000
   },
   {
     "id": 71907,
@@ -101,7 +129,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bo-Jeems",
+    "hostile_strength": 15000
   },
   {
     "id": 71715,
@@ -114,7 +146,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Corla",
+    "hostile_strength": 15000
   },
   {
     "id": 71713,
@@ -127,7 +163,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1-1 (Survey)",
+    "hostile_sample": "Survey (Ур. 1)",
+    "hostile_strength": 143
   },
   {
     "id": 71905,
@@ -140,7 +180,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tohvus",
+    "hostile_strength": 15000
   },
   {
     "id": 71906,
@@ -153,7 +197,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zanti",
+    "hostile_strength": 15000
   },
   {
     "id": 78790,
@@ -166,7 +214,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Agrico",
+    "hostile_strength": 15000
   },
   {
     "id": 74630,
@@ -179,7 +231,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Alorina",
+    "hostile_strength": 15000
   },
   {
     "id": 76342,
@@ -192,7 +248,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Berebul",
+    "hostile_strength": 15000
   },
   {
     "id": 74627,
@@ -205,7 +265,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Beyven",
+    "hostile_strength": 15000
   },
   {
     "id": 73556,
@@ -218,7 +282,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Boorhi",
+    "hostile_strength": 15000
   },
   {
     "id": 79924,
@@ -231,7 +299,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cecin",
+    "hostile_strength": 15000
   },
   {
     "id": 76329,
@@ -244,7 +316,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Colt",
+    "hostile_strength": 15000
   },
   {
     "id": 76337,
@@ -257,7 +333,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dauan",
+    "hostile_strength": 15000
   },
   {
     "id": 76297,
@@ -270,7 +350,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1-4 (Survey)",
+    "hostile_sample": "Survey (Ур. 1)",
+    "hostile_strength": 143
   },
   {
     "id": 74631,
@@ -283,7 +367,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Didi",
+    "hostile_strength": 15000
   },
   {
     "id": 75692,
@@ -296,7 +384,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Donnel",
+    "hostile_strength": 15000
   },
   {
     "id": 78793,
@@ -309,7 +401,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Entrunar",
+    "hostile_strength": 15000
   },
   {
     "id": 75694,
@@ -322,7 +418,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Feer",
+    "hostile_strength": 15000
   },
   {
     "id": 79930,
@@ -335,7 +435,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Hessen",
+    "hostile_strength": 15000
   },
   {
     "id": 1741382740,
@@ -348,7 +452,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Horlus",
+    "hostile_strength": 15000
   },
   {
     "id": 73560,
@@ -361,7 +469,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Huckster-4933",
+    "hostile_strength": 15000
   },
   {
     "id": 76334,
@@ -374,7 +486,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Injerra",
+    "hostile_strength": 15000
   },
   {
     "id": 75693,
@@ -387,7 +503,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jeybriol",
+    "hostile_strength": 15000
   },
   {
     "id": 76335,
@@ -400,7 +520,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Junid",
+    "hostile_strength": 15000
   },
   {
     "id": 79931,
@@ -413,7 +537,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kepp",
+    "hostile_strength": 15000
   },
   {
     "id": 75697,
@@ -426,7 +554,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kerao",
+    "hostile_strength": 15000
   },
   {
     "id": 75018,
@@ -439,7 +571,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Khic",
+    "hostile_strength": 15000
   },
   {
     "id": 76328,
@@ -452,7 +588,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lanoitan",
+    "hostile_strength": 15000
   },
   {
     "id": 76341,
@@ -465,7 +605,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Laxos",
+    "hostile_strength": 15000
   },
   {
     "id": 73561,
@@ -478,7 +622,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lipas",
+    "hostile_strength": 15000
   },
   {
     "id": 79916,
@@ -491,7 +639,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lockred",
+    "hostile_strength": 15000
   },
   {
     "id": 76340,
@@ -504,7 +656,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lotch",
+    "hostile_strength": 15000
   },
   {
     "id": 79933,
@@ -517,7 +673,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lunfa",
+    "hostile_strength": 15000
   },
   {
     "id": 75698,
@@ -530,7 +690,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lyquan",
+    "hostile_strength": 15000
   },
   {
     "id": 76330,
@@ -543,7 +707,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lyra",
+    "hostile_strength": 15000
   },
   {
     "id": 75690,
@@ -556,7 +724,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Maq",
+    "hostile_strength": 15000
   },
   {
     "id": 78791,
@@ -569,7 +741,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Maynard",
+    "hostile_strength": 15000
   },
   {
     "id": 76321,
@@ -582,7 +758,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Melllvar",
+    "hostile_strength": 15000
   },
   {
     "id": 75016,
@@ -595,7 +775,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Muhen",
+    "hostile_strength": 15000
   },
   {
     "id": 76325,
@@ -608,7 +792,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот New Sligo",
+    "hostile_strength": 15000
   },
   {
     "id": 73559,
@@ -621,7 +809,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nidox",
+    "hostile_strength": 15000
   },
   {
     "id": 79917,
@@ -634,7 +826,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nurt",
+    "hostile_strength": 15000
   },
   {
     "id": 76295,
@@ -647,7 +843,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1-4 (Survey)",
+    "hostile_sample": "Survey (Ур. 1)",
+    "hostile_strength": 143
   },
   {
     "id": 78792,
@@ -660,7 +860,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Odal",
+    "hostile_strength": 15000
   },
   {
     "id": 76339,
@@ -673,7 +877,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Orkon",
+    "hostile_strength": 15000
   },
   {
     "id": 79918,
@@ -686,7 +894,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Patton",
+    "hostile_strength": 15000
   },
   {
     "id": 74308,
@@ -699,7 +911,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Pimo",
+    "hostile_strength": 15000
   },
   {
     "id": 79921,
@@ -712,7 +928,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Pinikou",
+    "hostile_strength": 15000
   },
   {
     "id": 79932,
@@ -725,7 +945,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Poservoz",
+    "hostile_strength": 15000
   },
   {
     "id": 74434,
@@ -738,7 +962,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Quirad",
+    "hostile_strength": 15000
   },
   {
     "id": 79929,
@@ -751,7 +979,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ramexik",
+    "hostile_strength": 15000
   },
   {
     "id": 73488,
@@ -764,7 +996,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Reelah",
+    "hostile_strength": 15000
   },
   {
     "id": 79928,
@@ -777,7 +1013,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Resola",
+    "hostile_strength": 15000
   },
   {
     "id": 75019,
@@ -790,7 +1030,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Saqua",
+    "hostile_strength": 15000
   },
   {
     "id": 74435,
@@ -803,7 +1047,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Sido",
+    "hostile_strength": 15000
   },
   {
     "id": 75015,
@@ -816,7 +1064,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Skelg",
+    "hostile_strength": 15000
   },
   {
     "id": 73555,
@@ -829,7 +1081,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Slawlor",
+    "hostile_strength": 15000
   },
   {
     "id": 76296,
@@ -842,7 +1098,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1-4 (Survey)",
+    "hostile_sample": "Survey (Ур. 1)",
+    "hostile_strength": 143
   },
   {
     "id": 76338,
@@ -855,7 +1115,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vatok",
+    "hostile_strength": 15000
   },
   {
     "id": 75020,
@@ -868,7 +1132,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vemarii",
+    "hostile_strength": 15000
   },
   {
     "id": 78788,
@@ -881,7 +1149,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Wokapa",
+    "hostile_strength": 15000
   },
   {
     "id": 75021,
@@ -894,7 +1166,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Wuver",
+    "hostile_strength": 15000
   },
   {
     "id": 79923,
@@ -907,7 +1183,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xoja",
+    "hostile_strength": 15000
   },
   {
     "id": 76332,
@@ -920,7 +1200,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 1 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Yerma",
+    "hostile_strength": 15000
   },
   {
     "id": 71249,
@@ -933,7 +1217,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Groshi",
+    "hostile_strength": 30000
   },
   {
     "id": 71399,
@@ -946,7 +1234,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cospilon",
+    "hostile_strength": 30000
   },
   {
     "id": 72084,
@@ -959,7 +1251,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dalfa",
+    "hostile_strength": 30000
   },
   {
     "id": 71892,
@@ -972,7 +1268,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Follin",
+    "hostile_strength": 30000
   },
   {
     "id": 78968,
@@ -985,7 +1285,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aetisan",
+    "hostile_strength": 30000
   },
   {
     "id": 78023,
@@ -998,7 +1302,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Alacti",
+    "hostile_strength": 30000
   },
   {
     "id": 73854,
@@ -1011,7 +1319,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bodex",
+    "hostile_strength": 30000
   },
   {
     "id": 75543,
@@ -1024,7 +1336,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cymon",
+    "hostile_strength": 30000
   },
   {
     "id": 2074152378,
@@ -1037,7 +1353,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот DIZ",
+    "hostile_strength": 30000
   },
   {
     "id": 78967,
@@ -1050,7 +1370,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dolcan",
+    "hostile_strength": 30000
   },
   {
     "id": 74879,
@@ -1063,7 +1387,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Falko",
+    "hostile_strength": 30000
   },
   {
     "id": 78022,
@@ -1076,7 +1404,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Gomes",
+    "hostile_strength": 30000
   },
   {
     "id": 76604,
@@ -1089,7 +1421,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Hroga",
+    "hostile_strength": 30000
   },
   {
     "id": 74369,
@@ -1102,7 +1438,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 5-5 (Survey)",
+    "hostile_sample": "Survey (Ур. 5)",
+    "hostile_strength": 363
   },
   {
     "id": 75544,
@@ -1115,7 +1455,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jobe",
+    "hostile_strength": 30000
   },
   {
     "id": 77669,
@@ -1128,7 +1472,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Klora",
+    "hostile_strength": 30000
   },
   {
     "id": 74562,
@@ -1141,7 +1489,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mayagrazi",
+    "hostile_strength": 30000
   },
   {
     "id": 79631,
@@ -1154,7 +1506,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mulk",
+    "hostile_strength": 30000
   },
   {
     "id": 1836706599,
@@ -1167,7 +1523,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Pandapirate",
+    "hostile_strength": 30000
   },
   {
     "id": 79634,
@@ -1180,7 +1540,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Panuq",
+    "hostile_strength": 30000
   },
   {
     "id": 76336,
@@ -1193,7 +1557,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Rabalon",
+    "hostile_strength": 30000
   },
   {
     "id": 74878,
@@ -1206,7 +1574,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Sverlov",
+    "hostile_strength": 30000
   },
   {
     "id": 79632,
@@ -1219,7 +1591,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Taoji",
+    "hostile_strength": 30000
   },
   {
     "id": 73857,
@@ -1232,7 +1608,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 5-5 (Survey)",
+    "hostile_sample": "Survey (Ур. 5)",
+    "hostile_strength": 363
   },
   {
     "id": 78440,
@@ -1245,7 +1625,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vawur",
+    "hostile_strength": 30000
   },
   {
     "id": 79633,
@@ -1258,7 +1642,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vinmaier",
+    "hostile_strength": 30000
   },
   {
     "id": 76606,
@@ -1271,7 +1659,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Wagirur",
+    "hostile_strength": 30000
   },
   {
     "id": 76605,
@@ -1284,7 +1676,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 1,
+    "hostiles_info": "Ур. 2 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zorga",
+    "hostile_strength": 30000
   },
   {
     "id": 71303,
@@ -1297,7 +1693,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 5-7 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 5)",
+    "hostile_strength": 363
   },
   {
     "id": 72093,
@@ -1310,7 +1710,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Benzi",
+    "hostile_strength": 60000
   },
   {
     "id": 78521,
@@ -1323,7 +1727,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aker",
+    "hostile_strength": 60000
   },
   {
     "id": 74131,
@@ -1336,7 +1744,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Baw",
+    "hostile_strength": 60000
   },
   {
     "id": 79418,
@@ -1349,7 +1761,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bohvanderro",
+    "hostile_strength": 60000
   },
   {
     "id": 79370,
@@ -1362,7 +1778,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 1-1 (Survey)",
+    "hostile_sample": "Survey (Ур. 1)",
+    "hostile_strength": 143
   },
   {
     "id": 79416,
@@ -1375,7 +1795,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Landi",
+    "hostile_strength": 60000
   },
   {
     "id": 74130,
@@ -1388,7 +1812,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Laurgatt",
+    "hostile_strength": 60000
   },
   {
     "id": 74128,
@@ -1401,7 +1829,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ruli",
+    "hostile_strength": 60000
   },
   {
     "id": 78520,
@@ -1414,7 +1846,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Takik",
+    "hostile_strength": 60000
   },
   {
     "id": 78519,
@@ -1427,7 +1863,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vinland",
+    "hostile_strength": 60000
   },
   {
     "id": 73970,
@@ -1440,7 +1880,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 2,
+    "hostiles_info": "Ур. 4 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zukerat",
+    "hostile_strength": 60000
   },
   {
     "id": 74017,
@@ -1453,7 +1897,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Melvara",
+    "hostile_strength": 75000
   },
   {
     "id": 72116,
@@ -1466,7 +1914,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Yuvaa",
+    "hostile_strength": 75000
   },
   {
     "id": 79500,
@@ -1479,7 +1931,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aoro",
+    "hostile_strength": 75000
   },
   {
     "id": 79497,
@@ -1492,7 +1948,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Calex",
+    "hostile_strength": 75000
   },
   {
     "id": 74244,
@@ -1505,7 +1965,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 2-8 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 2)",
+    "hostile_strength": 162
   },
   {
     "id": 78651,
@@ -1518,7 +1982,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Forhingre",
+    "hostile_strength": 75000
   },
   {
     "id": 74246,
@@ -1531,7 +1999,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 2-8 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 2)",
+    "hostile_strength": 162
   },
   {
     "id": 78653,
@@ -1544,7 +2016,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 3,
+    "hostiles_info": "Ур. 5 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Winber",
+    "hostile_strength": 75000
   },
   {
     "id": 283762244,
@@ -1557,7 +2033,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Alonso",
+    "hostile_strength": 90000
   },
   {
     "id": 1505582693,
@@ -1570,7 +2050,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cosa",
+    "hostile_strength": 90000
   },
   {
     "id": 1306959898,
@@ -1583,7 +2067,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Emola",
+    "hostile_strength": 90000
   },
   {
     "id": 2147089484,
@@ -1596,7 +2084,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Eshu",
+    "hostile_strength": 90000
   },
   {
     "id": 1905676971,
@@ -1609,7 +2101,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Fiadh",
+    "hostile_strength": 90000
   },
   {
     "id": 326597973,
@@ -1622,7 +2118,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Fyufi",
+    "hostile_strength": 90000
   },
   {
     "id": 841664901,
@@ -1635,7 +2135,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 5-8 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 5)",
+    "hostile_strength": 428
   },
   {
     "id": 92012030,
@@ -1648,7 +2152,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Iaswo",
+    "hostile_strength": 90000
   },
   {
     "id": 935197920,
@@ -1661,7 +2169,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Istyna",
+    "hostile_strength": 90000
   },
   {
     "id": 930153285,
@@ -1674,7 +2186,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Katonda",
+    "hostile_strength": 90000
   },
   {
     "id": 452560379,
@@ -1687,7 +2203,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kauko",
+    "hostile_strength": 90000
   },
   {
     "id": 1740429538,
@@ -1700,7 +2220,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kibuka",
+    "hostile_strength": 90000
   },
   {
     "id": 1376266505,
@@ -1713,7 +2237,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kroci",
+    "hostile_strength": 90000
   },
   {
     "id": 667166609,
@@ -1726,7 +2254,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Leza",
+    "hostile_strength": 90000
   },
   {
     "id": 1145122202,
@@ -1739,7 +2271,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Littledove",
+    "hostile_strength": 90000
   },
   {
     "id": 1901028317,
@@ -1752,7 +2288,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lyon",
+    "hostile_strength": 90000
   },
   {
     "id": 1437152822,
@@ -1765,7 +2305,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mara Eya",
+    "hostile_strength": 90000
   },
   {
     "id": 1786976742,
@@ -1778,7 +2322,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mesadin",
+    "hostile_strength": 90000
   },
   {
     "id": 222360364,
@@ -1791,7 +2339,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mielikki",
+    "hostile_strength": 90000
   },
   {
     "id": 1127775915,
@@ -1804,7 +2356,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Taleka",
+    "hostile_strength": 90000
   },
   {
     "id": 670982212,
@@ -1817,7 +2373,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tapio",
+    "hostile_strength": 90000
   },
   {
     "id": 72568276,
@@ -1830,7 +2390,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ulzar",
+    "hostile_strength": 90000
   },
   {
     "id": 787441530,
@@ -1843,7 +2407,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Veist",
+    "hostile_strength": 90000
   },
   {
     "id": 837719583,
@@ -1856,7 +2424,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 4,
+    "hostiles_info": "Ур. 6 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Wretsky",
+    "hostile_strength": 90000
   },
   {
     "id": 1293550007,
@@ -1869,7 +2441,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aindia",
+    "hostile_strength": 105000
   },
   {
     "id": 1614747268,
@@ -1882,7 +2458,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 8-8 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 8)",
+    "hostile_strength": 971
   },
   {
     "id": 363397350,
@@ -1895,7 +2475,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Coth",
+    "hostile_strength": 105000
   },
   {
     "id": 2876,
@@ -1908,7 +2492,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Maluria",
+    "hostile_strength": 105000
   },
   {
     "id": 71358,
@@ -1921,7 +2509,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Risa",
+    "hostile_strength": 105000
   },
   {
     "id": 326639237,
@@ -1934,7 +2526,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 5-8 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 5)",
+    "hostile_strength": 428
   },
   {
     "id": 90,
@@ -1947,7 +2543,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tellun",
+    "hostile_strength": 105000
   },
   {
     "id": 55,
@@ -1960,7 +2560,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 5,
+    "hostiles_info": "Ур. 7 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Yridia",
+    "hostile_strength": 105000
   },
   {
     "id": 2070233084,
@@ -1973,7 +2577,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aodaan",
+    "hostile_strength": 120000
   },
   {
     "id": 276621500,
@@ -1986,7 +2594,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bernin",
+    "hostile_strength": 120000
   },
   {
     "id": 1847701194,
@@ -1999,7 +2611,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Boniv",
+    "hostile_strength": 120000
   },
   {
     "id": 559795005,
@@ -2012,7 +2628,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cara Alpha",
+    "hostile_strength": 120000
   },
   {
     "id": 748005167,
@@ -2025,7 +2645,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Cara Beta",
+    "hostile_strength": 120000
   },
   {
     "id": 1079232378,
@@ -2038,7 +2662,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Demavar",
+    "hostile_strength": 120000
   },
   {
     "id": 1436783271,
@@ -2051,7 +2679,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Duvlock",
+    "hostile_strength": 120000
   },
   {
     "id": 1154653215,
@@ -2064,7 +2696,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8-10 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 321133037,
@@ -2077,7 +2713,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Fithis",
+    "hostile_strength": 120000
   },
   {
     "id": 1040185241,
@@ -2090,7 +2730,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8-10 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 1608653621,
@@ -2103,7 +2747,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Minnea",
+    "hostile_strength": 120000
   },
   {
     "id": 1792068830,
@@ -2116,7 +2764,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Moston",
+    "hostile_strength": 120000
   },
   {
     "id": 175361866,
@@ -2129,7 +2781,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Pyr",
+    "hostile_strength": 120000
   },
   {
     "id": 884503884,
@@ -2142,7 +2798,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Robesi",
+    "hostile_strength": 120000
   },
   {
     "id": 1153115109,
@@ -2155,7 +2815,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Rosenberg",
+    "hostile_strength": 120000
   },
   {
     "id": 1559195274,
@@ -2168,7 +2832,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8-10 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 825963253,
@@ -2181,7 +2849,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Sual",
+    "hostile_strength": 120000
   },
   {
     "id": 624359904,
@@ -2194,7 +2866,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Súilneimhe",
+    "hostile_strength": 120000
   },
   {
     "id": 1654231988,
@@ -2207,7 +2883,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tova",
+    "hostile_strength": 120000
   },
   {
     "id": 584883407,
@@ -2220,7 +2900,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 6,
+    "hostiles_info": "Ур. 8 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zog",
+    "hostile_strength": 120000
   },
   {
     "id": 81674,
@@ -2233,7 +2917,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Alannah",
+    "hostile_strength": 135000
   },
   {
     "id": 83373,
@@ -2246,7 +2934,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aum",
+    "hostile_strength": 135000
   },
   {
     "id": 83376,
@@ -2259,7 +2951,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bulut",
+    "hostile_strength": 135000
   },
   {
     "id": 81594,
@@ -2272,7 +2968,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dignam",
+    "hostile_strength": 135000
   },
   {
     "id": 83388,
@@ -2285,7 +2985,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Doraboro",
+    "hostile_strength": 135000
   },
   {
     "id": 82908,
@@ -2298,7 +3002,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dudu",
+    "hostile_strength": 135000
   },
   {
     "id": 79578,
@@ -2311,7 +3019,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dyrr",
+    "hostile_strength": 135000
   },
   {
     "id": 83389,
@@ -2324,7 +3036,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ellijo",
+    "hostile_strength": 135000
   },
   {
     "id": 72902,
@@ -2337,7 +3053,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Eral",
+    "hostile_strength": 135000
   },
   {
     "id": 76223,
@@ -2350,7 +3070,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Eravan",
+    "hostile_strength": 135000
   },
   {
     "id": 83385,
@@ -2363,7 +3087,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ethjamar",
+    "hostile_strength": 135000
   },
   {
     "id": 81619,
@@ -2376,7 +3104,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Flibble",
+    "hostile_strength": 135000
   },
   {
     "id": 81666,
@@ -2389,7 +3121,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-12 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 81219,
@@ -2402,7 +3138,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Grenfil",
+    "hostile_strength": 135000
   },
   {
     "id": 76222,
@@ -2415,7 +3155,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jinnia",
+    "hostile_strength": 135000
   },
   {
     "id": 78726,
@@ -2428,7 +3172,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-10 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 81623,
@@ -2441,7 +3189,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Later",
+    "hostile_strength": 135000
   },
   {
     "id": 81618,
@@ -2454,7 +3206,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Liynuk",
+    "hostile_strength": 135000
   },
   {
     "id": 81673,
@@ -2467,7 +3223,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Luca",
+    "hostile_strength": 135000
   },
   {
     "id": 81592,
@@ -2480,7 +3240,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Luheez",
+    "hostile_strength": 135000
   },
   {
     "id": 83387,
@@ -2493,7 +3257,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mackers",
+    "hostile_strength": 135000
   },
   {
     "id": 81593,
@@ -2506,7 +3274,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mari",
+    "hostile_strength": 135000
   },
   {
     "id": 81669,
@@ -2519,7 +3291,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-12 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 79577,
@@ -2532,7 +3308,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Palimer",
+    "hostile_strength": 135000
   },
   {
     "id": 81005,
@@ -2545,7 +3325,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Rozi",
+    "hostile_strength": 135000
   },
   {
     "id": 81622,
@@ -2558,7 +3342,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Sohkia",
+    "hostile_strength": 135000
   },
   {
     "id": 83386,
@@ -2571,7 +3359,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Somaochu",
+    "hostile_strength": 135000
   },
   {
     "id": 83390,
@@ -2584,7 +3376,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tynkar",
+    "hostile_strength": 135000
   },
   {
     "id": 81668,
@@ -2597,7 +3393,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-12 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 74101,
@@ -2610,7 +3410,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Volta",
+    "hostile_strength": 135000
   },
   {
     "id": 81181,
@@ -2623,7 +3427,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Whinnul",
+    "hostile_strength": 135000
   },
   {
     "id": 78727,
@@ -2636,7 +3444,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-10 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 81667,
@@ -2649,7 +3461,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-12 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 81670,
@@ -2662,7 +3478,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 8-12 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 8)",
+    "hostile_strength": 956
   },
   {
     "id": 1225355489,
@@ -2675,7 +3495,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Benif",
+    "hostile_strength": 135000
   },
   {
     "id": 1786096059,
@@ -2688,7 +3512,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ceguh",
+    "hostile_strength": 135000
   },
   {
     "id": 451252032,
@@ -2701,7 +3529,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kayojui",
+    "hostile_strength": 135000
   },
   {
     "id": 282428991,
@@ -2714,7 +3546,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lodum",
+    "hostile_strength": 135000
   },
   {
     "id": 750169626,
@@ -2727,7 +3563,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nooia",
+    "hostile_strength": 135000
   },
   {
     "id": 288654275,
@@ -2740,7 +3580,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Qubas",
+    "hostile_strength": 135000
   },
   {
     "id": 827398350,
@@ -2753,7 +3597,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Suqigor",
+    "hostile_strength": 135000
   },
   {
     "id": 1341935964,
@@ -2766,7 +3614,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Uuuuhai",
+    "hostile_strength": 135000
   },
   {
     "id": 1709942779,
@@ -2779,7 +3631,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Veias",
+    "hostile_strength": 135000
   },
   {
     "id": 253393601,
@@ -2792,7 +3648,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vogum",
+    "hostile_strength": 135000
   },
   {
     "id": 1534156106,
@@ -2805,7 +3665,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xabek",
+    "hostile_strength": 135000
   },
   {
     "id": 1954730883,
@@ -2818,7 +3682,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xipox",
+    "hostile_strength": 135000
   },
   {
     "id": 1948120198,
@@ -2831,7 +3699,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xiyia",
+    "hostile_strength": 135000
   },
   {
     "id": 1422239031,
@@ -2844,7 +3716,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Yesop",
+    "hostile_strength": 135000
   },
   {
     "id": 446076352,
@@ -2857,7 +3733,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Yosiqul",
+    "hostile_strength": 135000
   },
   {
     "id": 169288075,
@@ -2870,7 +3750,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 7,
+    "hostiles_info": "Ур. 9 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zozalin",
+    "hostile_strength": 135000
   },
   {
     "id": 81642,
@@ -2883,7 +3767,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 13-13 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 13)",
+    "hostile_strength": 3760
   },
   {
     "id": 83351,
@@ -2896,7 +3784,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Donfo",
+    "hostile_strength": 150000
   },
   {
     "id": 81603,
@@ -2909,7 +3801,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 13-13 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 13)",
+    "hostile_strength": 3760
   },
   {
     "id": 81641,
@@ -2922,7 +3818,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 13-13 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 13)",
+    "hostile_strength": 3760
   },
   {
     "id": 81085,
@@ -2935,7 +3835,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Imgra",
+    "hostile_strength": 150000
   },
   {
     "id": 337105505,
@@ -2948,7 +3852,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kejal",
+    "hostile_strength": 150000
   },
   {
     "id": 83353,
@@ -2961,7 +3869,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Weh",
+    "hostile_strength": 150000
   },
   {
     "id": 1658720101,
@@ -2974,7 +3886,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Murasaki 312",
+    "hostile_strength": 150000
   },
   {
     "id": 729358569,
@@ -2987,7 +3903,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Friefra",
+    "hostile_strength": 150000
   },
   {
     "id": 1910889934,
@@ -3000,7 +3920,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nilkino",
+    "hostile_strength": 150000
   },
   {
     "id": 659054346,
@@ -3013,7 +3937,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Utoqa",
+    "hostile_strength": 150000
   },
   {
     "id": 2119979509,
@@ -3026,7 +3954,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 8,
+    "hostiles_info": "Ур. 10 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zamam",
+    "hostile_strength": 150000
   },
   {
     "id": 83362,
@@ -3039,7 +3971,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 9,
+    "hostiles_info": "Ур. 11 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Elva",
+    "hostile_strength": 165000
   },
   {
     "id": 1173652866,
@@ -3052,7 +3988,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 9,
+    "hostiles_info": "Ур. 10-14 (Survey)",
+    "hostile_sample": "Survey (Ур. 10)",
+    "hostile_strength": 1927
   },
   {
     "id": 81634,
@@ -3065,7 +4005,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 9,
+    "hostiles_info": "Ур. 11 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Quvolis",
+    "hostile_strength": 165000
   },
   {
     "id": 1980030252,
@@ -3078,7 +4022,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 9,
+    "hostiles_info": "Ур. 10-14 (Survey)",
+    "hostile_sample": "Survey (Ур. 10)",
+    "hostile_strength": 1927
   },
   {
     "id": 1473047156,
@@ -3091,7 +4039,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 9,
+    "hostiles_info": "Ур. 11 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Valakis",
+    "hostile_strength": 165000
   },
   {
     "id": 1339989224,
@@ -3104,7 +4056,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 10-15 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 10)",
+    "hostile_strength": 1927
   },
   {
     "id": 81250,
@@ -3117,7 +4073,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12-15 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 12)",
+    "hostile_strength": 2905
   },
   {
     "id": 52,
@@ -3130,7 +4090,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 10-15 (Survey)",
+    "hostile_sample": "Survey (Ур. 10)",
+    "hostile_strength": 1927
   },
   {
     "id": 83345,
@@ -3143,7 +4107,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 10-15 (Survey)",
+    "hostile_sample": "Survey (Ур. 10)",
+    "hostile_strength": 1927
   },
   {
     "id": 42,
@@ -3156,7 +4124,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 14-15 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 14)",
+    "hostile_strength": 5153
   },
   {
     "id": 76037769,
@@ -3169,7 +4141,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xyrillia",
+    "hostile_strength": 180000
   },
   {
     "id": 744269956,
@@ -3182,7 +4158,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Corad",
+    "hostile_strength": 180000
   },
   {
     "id": 1545436852,
@@ -3195,7 +4175,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jabian",
+    "hostile_strength": 180000
   },
   {
     "id": 1872140214,
@@ -3208,7 +4192,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Praes",
+    "hostile_strength": 180000
   },
   {
     "id": 884500988,
@@ -3221,7 +4209,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Travers",
+    "hostile_strength": 180000
   },
   {
     "id": 976328855,
@@ -3234,7 +4226,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 10,
+    "hostiles_info": "Ур. 12 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Wrund",
+    "hostile_strength": 180000
   },
   {
     "id": 54,
@@ -3247,7 +4243,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 11,
+    "hostiles_info": "Ур. 16-16 (Survey)",
+    "hostile_sample": "Survey (Ур. 16)",
+    "hostile_strength": 9449
   },
   {
     "id": 1156770711,
@@ -3260,7 +4260,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 11,
+    "hostiles_info": "Ур. 13 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Verex",
+    "hostile_strength": 195000
   },
   {
     "id": 81286,
@@ -3273,7 +4277,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 11,
+    "hostiles_info": "Ур. 12-14 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 12)",
+    "hostile_strength": 2905
   },
   {
     "id": 601072182,
@@ -3286,7 +4294,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 11,
+    "hostiles_info": "Ур. 14-16 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 14)",
+    "hostile_strength": 5153
   },
   {
     "id": 854772176,
@@ -3299,7 +4311,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 11,
+    "hostiles_info": "Ур. 13 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Xantoras",
+    "hostile_strength": 195000
   },
   {
     "id": 1699978960,
@@ -3312,7 +4328,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 12,
+    "hostiles_info": "Ур. 14 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dekendi",
+    "hostile_strength": 210000
   },
   {
     "id": 402966019,
@@ -3325,7 +4345,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 12,
+    "hostiles_info": "Ур. 14 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vintaak",
+    "hostile_strength": 210000
   },
   {
     "id": 1745143614,
@@ -3338,7 +4362,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 12,
+    "hostiles_info": "Ур. 12-16 (Battleship, Survey)",
+    "hostile_sample": "Battleship (Ур. 12)",
+    "hostile_strength": 2905
   },
   {
     "id": 1490914183,
@@ -3351,7 +4379,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 12,
+    "hostiles_info": "Ур. 13-16 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 13)",
+    "hostile_strength": 3760
   },
   {
     "id": 1203174739,
@@ -3364,7 +4396,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 12,
+    "hostiles_info": "Ур. 11-16 (Survey)",
+    "hostile_sample": "Survey (Ур. 11)",
+    "hostile_strength": 2393
   },
   {
     "id": 81354,
@@ -3377,7 +4413,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 14-18 (Survey)",
+    "hostile_sample": "Survey (Ур. 14)",
+    "hostile_strength": 5263
   },
   {
     "id": 1135473830,
@@ -3390,7 +4430,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 15-15 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 15)",
+    "hostile_strength": 6613
   },
   {
     "id": 1748121504,
@@ -3403,7 +4447,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 15-16 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 15)",
+    "hostile_strength": 6613
   },
   {
     "id": 1790049115,
@@ -3416,7 +4464,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 12-12 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 12)",
+    "hostile_strength": 2905
   },
   {
     "id": 292647761,
@@ -3429,7 +4481,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 15 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tarkalean Crest",
+    "hostile_strength": 225000
   },
   {
     "id": 1864745863,
@@ -3442,7 +4498,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 12-16 (Survey)",
+    "hostile_sample": "Survey (Ур. 12)",
+    "hostile_strength": 3012
   },
   {
     "id": 1422258500,
@@ -3455,7 +4515,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 15-15 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 14549
   },
   {
     "id": 194317526,
@@ -3468,7 +4532,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 13,
+    "hostiles_info": "Ур. 15-15 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 14549
   },
   {
     "id": 719474967,
@@ -3481,7 +4549,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 14-14 (Survey)",
+    "hostile_sample": "Survey (Ур. 14)",
+    "hostile_strength": 5263
   },
   {
     "id": 1922414485,
@@ -3494,7 +4566,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 17-17 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 17)",
+    "hostile_strength": 11296
   },
   {
     "id": 1114669837,
@@ -3507,7 +4583,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 14-14 (Survey)",
+    "hostile_sample": "Survey (Ур. 14)",
+    "hostile_strength": 5263
   },
   {
     "id": 1494550660,
@@ -3520,7 +4600,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 16-19 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 16)",
+    "hostile_strength": 9457
   },
   {
     "id": 2136091294,
@@ -3533,7 +4617,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 14-19 (Survey)",
+    "hostile_sample": "Survey (Ур. 14)",
+    "hostile_strength": 5263
   },
   {
     "id": 1613927324,
@@ -3546,7 +4634,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 16-16 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 21645
   },
   {
     "id": 218039082,
@@ -3559,7 +4651,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 13-14 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 13)",
+    "hostile_strength": 3725
   },
   {
     "id": 1316840322,
@@ -3572,7 +4668,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 15-19 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 15)",
+    "hostile_strength": 6613
   },
   {
     "id": 1263278966,
@@ -3585,7 +4685,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 16 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jishui",
+    "hostile_strength": 240000
   },
   {
     "id": 1154764176,
@@ -3598,7 +4702,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 13-13 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 13)",
+    "hostile_strength": 3725
   },
   {
     "id": 1478413915,
@@ -3611,7 +4719,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 16-16 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 21645
   },
   {
     "id": 507279929,
@@ -3624,7 +4736,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 16 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ora Leraa",
+    "hostile_strength": 240000
   },
   {
     "id": 1091871393,
@@ -3637,7 +4753,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 14,
+    "hostiles_info": "Ур. 13-19 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 13)",
+    "hostile_strength": 3725
   },
   {
     "id": 1647623234,
@@ -3650,7 +4770,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 14-20 (Survey)",
+    "hostile_sample": "Survey (Ур. 14)",
+    "hostile_strength": 5263
   },
   {
     "id": 1462287177,
@@ -3663,7 +4787,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 15-20 (Explorer, Survey)",
+    "hostile_sample": "Explorer (Ур. 15)",
+    "hostile_strength": 6613
   },
   {
     "id": 1107520183,
@@ -3676,7 +4804,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Laidcenn",
+    "hostile_strength": 255000
   },
   {
     "id": 2028145465,
@@ -3689,7 +4821,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 20-20 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 20)",
+    "hostile_strength": 18099
   },
   {
     "id": 1083794899,
@@ -3702,7 +4838,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 18-20 (Survey)",
+    "hostile_sample": "Survey (Ур. 18)",
+    "hostile_strength": 12996
   },
   {
     "id": 543818924,
@@ -3715,7 +4855,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ragnarr",
+    "hostile_strength": 255000
   },
   {
     "id": 1184282738,
@@ -3728,7 +4872,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 20-20 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 20)",
+    "hostile_strength": 18099
   },
   {
     "id": 1147698260,
@@ -3741,7 +4889,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17-17 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 34782
   },
   {
     "id": 81397,
@@ -3754,7 +4906,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Freyda",
+    "hostile_strength": 255000
   },
   {
     "id": 69523071,
@@ -3767,7 +4923,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kaus Borealis",
+    "hostile_strength": 255000
   },
   {
     "id": 1591474708,
@@ -3780,7 +4940,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17-19 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 17)",
+    "hostile_strength": 11296
   },
   {
     "id": 1726465367,
@@ -3793,7 +4957,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 16-19 (Survey)",
+    "hostile_sample": "Survey (Ур. 16)",
+    "hostile_strength": 9449
   },
   {
     "id": 1012246624,
@@ -3806,7 +4974,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 14-20 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 14)",
+    "hostile_strength": 5108
   },
   {
     "id": 500227886,
@@ -3819,7 +4991,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17-17 (Survey)",
+    "hostile_sample": "Survey (Ур. 17)",
+    "hostile_strength": 25031
   },
   {
     "id": 1090722450,
@@ -3832,7 +5008,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17-17 (Survey)",
+    "hostile_sample": "Survey (Ур. 17)",
+    "hostile_strength": 25031
   },
   {
     "id": 180481608,
@@ -3845,7 +5025,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17-17 (Survey)",
+    "hostile_sample": "Survey (Ур. 17)",
+    "hostile_strength": 25031
   },
   {
     "id": 768871279,
@@ -3858,7 +5042,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ado",
+    "hostile_strength": 255000
   },
   {
     "id": 2058224054,
@@ -3871,7 +5059,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Li",
+    "hostile_strength": 255000
   },
   {
     "id": 1748542290,
@@ -3884,7 +5076,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nott",
+    "hostile_strength": 255000
   },
   {
     "id": 559211813,
@@ -3897,7 +5093,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tola Alpha",
+    "hostile_strength": 255000
   },
   {
     "id": 2055574236,
@@ -3910,7 +5110,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tola Beta",
+    "hostile_strength": 255000
   },
   {
     "id": 1273201051,
@@ -3923,7 +5127,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 15,
+    "hostiles_info": "Ур. 17 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tola Gamma",
+    "hostile_strength": 255000
   },
   {
     "id": 2076378378,
@@ -3936,7 +5144,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 17-21 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 17)",
+    "hostile_strength": 11296
   },
   {
     "id": 604074052,
@@ -3949,7 +5161,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 16-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 16)",
+    "hostile_strength": 9457
   },
   {
     "id": 60112512,
@@ -3962,7 +5178,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 15-21 (Survey)",
+    "hostile_sample": "Survey (Ур. 15)",
+    "hostile_strength": 6745
   },
   {
     "id": 1835140406,
@@ -3975,7 +5195,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 16-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 16)",
+    "hostile_strength": 9457
   },
   {
     "id": 1791133099,
@@ -3988,7 +5212,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 18 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bubeau",
+    "hostile_strength": 270000
   },
   {
     "id": 1385663190,
@@ -4001,7 +5229,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 18 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Dalukerinborva",
+    "hostile_strength": 270000
   },
   {
     "id": 1172806400,
@@ -4014,7 +5246,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 15-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 15)",
+    "hostile_strength": 6548
   },
   {
     "id": 189590910,
@@ -4027,7 +5263,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 18-18 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 54492
   },
   {
     "id": 1855008555,
@@ -4040,7 +5280,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 16-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 16)",
+    "hostile_strength": 9457
   },
   {
     "id": 553301075,
@@ -4053,7 +5297,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 21-21 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 23224
   },
   {
     "id": 958423648,
@@ -4066,7 +5314,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 15-21 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 15)",
+    "hostile_strength": 6613
   },
   {
     "id": 910353989,
@@ -4079,7 +5331,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 15-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 15)",
+    "hostile_strength": 6548
   },
   {
     "id": 1357784499,
@@ -4092,7 +5348,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 18 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Todem",
+    "hostile_strength": 270000
   },
   {
     "id": 464460417,
@@ -4105,7 +5365,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 15-21 (Survey)",
+    "hostile_sample": "Survey (Ур. 15)",
+    "hostile_strength": 6745
   },
   {
     "id": 383603040,
@@ -4118,7 +5382,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 18-21 (Survey)",
+    "hostile_sample": "Survey (Ур. 18)",
+    "hostile_strength": 12996
   },
   {
     "id": 763406588,
@@ -4131,7 +5399,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 16,
+    "hostiles_info": "Ур. 26-28 (Battleship, Explorer, Survey)",
+    "hostile_sample": "Explorer (Ур. 26)",
+    "hostile_strength": 54559
   },
   {
     "id": 959318428,
@@ -4144,7 +5416,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 21-22 (Battleship, Survey)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 23247
   },
   {
     "id": 1017582787,
@@ -4157,7 +5433,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 16-22 (Explorer, Battleship)",
+    "hostile_sample": "Explorer (Ур. 16)",
+    "hostile_strength": 9404
   },
   {
     "id": 2052698931,
@@ -4170,7 +5450,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 21-22 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 23247
   },
   {
     "id": 335238400,
@@ -4183,7 +5467,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 16-22 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 16)",
+    "hostile_strength": 9404
   },
   {
     "id": 937831006,
@@ -4196,7 +5484,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 19 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kosz",
+    "hostile_strength": 285000
   },
   {
     "id": 1911521293,
@@ -4209,7 +5501,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 20-22 (Survey)",
+    "hostile_sample": "Survey (Ур. 20)",
+    "hostile_strength": 18107
   },
   {
     "id": 11909028,
@@ -4222,7 +5518,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 16-22 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 16)",
+    "hostile_strength": 9457
   },
   {
     "id": 1113049160,
@@ -4235,7 +5535,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 20-22 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 17996
   },
   {
     "id": 959781310,
@@ -4248,7 +5552,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 19-19 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 65722
   },
   {
     "id": 1840737360,
@@ -4261,7 +5569,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 17,
+    "hostiles_info": "Ур. 20-22 (Explorer, Survey)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 17996
   },
   {
     "id": 876333661,
@@ -4274,7 +5586,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Adia Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 608311844,
@@ -4287,7 +5603,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aonad Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 185994535,
@@ -4300,7 +5620,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aonad Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1466324689,
@@ -4313,7 +5637,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Asiti Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1220997168,
@@ -4326,7 +5654,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Asiti Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 954632802,
@@ -4339,7 +5671,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aylus Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1646316380,
@@ -4352,7 +5688,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Aylus Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 380667492,
@@ -4365,7 +5705,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Beku Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1598300560,
@@ -4378,7 +5722,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Beku Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1768926542,
@@ -4391,7 +5739,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ber'Tho Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 240211163,
@@ -4404,7 +5756,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Comst Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1066722677,
@@ -4417,7 +5773,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Comst Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 42777065,
@@ -4430,7 +5790,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Gelida Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1462401943,
@@ -4443,7 +5807,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Gelida Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1382233658,
@@ -4456,7 +5824,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kolava Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 2053970222,
@@ -4469,7 +5841,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Kolava Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1943549517,
@@ -4482,7 +5858,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nujord Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1778259122,
@@ -4495,7 +5875,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Nujord Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 699920086,
@@ -4508,7 +5892,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Otima Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 182486122,
@@ -4521,7 +5909,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Otima Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 9849804,
@@ -4534,7 +5926,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Parturi Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 894967478,
@@ -4547,7 +5943,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Parturi Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1593045297,
@@ -4560,7 +5960,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Qeyma Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 552025766,
@@ -4573,7 +5977,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Qeyma Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 773013183,
@@ -4586,7 +5994,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ruhe Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 801718828,
@@ -4599,7 +6011,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ruhe Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1123110021,
@@ -4612,7 +6028,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Saldeti Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1039958534,
@@ -4625,7 +6045,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Saldeti Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1583964158,
@@ -4638,7 +6062,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Stilhe Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 962007912,
@@ -4651,7 +6079,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Stilhe Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 892076127,
@@ -4664,7 +6096,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tazolka Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1143281575,
@@ -4677,7 +6113,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tazolka Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 76168378,
@@ -4690,7 +6130,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Thaylen Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 680711098,
@@ -4703,7 +6147,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Thaylen Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 957449368,
@@ -4716,7 +6164,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Thosz Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 610516582,
@@ -4729,7 +6181,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Thosz Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 267053299,
@@ -4742,7 +6198,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zamaro Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 529309782,
@@ -4755,7 +6215,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zamaro Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 849541812,
@@ -4768,7 +6232,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 21-22 (Armada Target, Survey)",
+    "hostile_sample": "Armada Target (Ур. 21)",
+    "hostile_strength": 281485
   },
   {
     "id": 2102605227,
@@ -4781,7 +6249,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-23 (Battleship, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1735899624,
@@ -4794,7 +6266,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-23 (Explorer, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1854874708,
@@ -4807,7 +6283,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 21-23 (Battleship, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 23247
   },
   {
     "id": 81459,
@@ -4820,7 +6300,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 21-23 (Explorer, Armada Target)",
+    "hostile_sample": "Armada Target (Ур. 21)",
+    "hostile_strength": 281485
   },
   {
     "id": 753424302,
@@ -4833,7 +6317,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 18-23 (Explorer, Survey)",
+    "hostile_sample": "SULIBAN BOUNTY HUNTER",
+    "hostile_strength": 12905
   },
   {
     "id": 830770182,
@@ -4846,7 +6334,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-23 (Explorer, Battleship, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 725572971,
@@ -4859,7 +6351,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-20 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 74784
   },
   {
     "id": 1634417053,
@@ -4872,7 +6368,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 22-22 (Survey)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 30480
   },
   {
     "id": 159671285,
@@ -4885,7 +6385,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-23 (Explorer, Survey, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 20817
   },
   {
     "id": 376606935,
@@ -4898,7 +6402,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Adia Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 722806600,
@@ -4911,7 +6419,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ezla Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1560703707,
@@ -4924,7 +6436,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Ezla Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 2045673977,
@@ -4937,7 +6453,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Framtid Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1020112123,
@@ -4950,7 +6470,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Framtid Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1427204258,
@@ -4963,7 +6487,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Helvi Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 813801255,
@@ -4976,7 +6504,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Helvi Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1324059029,
@@ -4989,7 +6521,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Innlasn Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1759962100,
@@ -5002,7 +6538,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Innlasn Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1879250507,
@@ -5015,7 +6555,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Klefaski Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1137978067,
@@ -5028,7 +6572,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Klefaski Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 203913254,
@@ -5041,7 +6589,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lenara Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1089659533,
@@ -5054,7 +6606,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Lenara Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1790893897,
@@ -5067,7 +6623,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mordus",
+    "hostile_strength": 300000
   },
   {
     "id": 219764058,
@@ -5080,7 +6640,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Perim Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 987655809,
@@ -5093,7 +6657,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Perim Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 661203128,
@@ -5106,7 +6674,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tefkari Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1004655100,
@@ -5119,7 +6691,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tefkari Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1401344248,
@@ -5132,7 +6708,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Temeri Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 250210568,
@@ -5145,7 +6725,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Temeri Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 492685770,
@@ -5158,7 +6742,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tigan Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1769159877,
@@ -5171,7 +6759,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tigan Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 1361156920,
@@ -5184,7 +6776,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vemira Alpha",
+    "hostile_strength": 300000
   },
   {
     "id": 1112532473,
@@ -5197,7 +6793,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Vemira Beta",
+    "hostile_strength": 300000
   },
   {
     "id": 308829943,
@@ -5210,7 +6810,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 19-23 (Survey)",
+    "hostile_sample": "GALOR CLASS",
+    "hostile_strength": 16487
   },
   {
     "id": 1641326183,
@@ -5223,7 +6827,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 18,
+    "hostiles_info": "Ур. 20-20 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 74784
   },
   {
     "id": 789724593,
@@ -5236,7 +6844,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Battleship, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 37068128,
@@ -5249,7 +6861,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Explorer, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 827622990,
@@ -5262,7 +6878,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Explorer, Battleship, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 30520
   },
   {
     "id": 1718038036,
@@ -5275,7 +6895,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 18-24 (Battleship, Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 18)",
+    "hostile_strength": 12905
   },
   {
     "id": 81497,
@@ -5288,7 +6912,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 21-24 (Explorer, Armada Target)",
+    "hostile_sample": "Armada Target (Ур. 21)",
+    "hostile_strength": 281485
   },
   {
     "id": 1862365964,
@@ -5301,7 +6929,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Interceptor, Survey)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1295669729,
@@ -5314,7 +6946,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Battleship, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1058489736,
@@ -5327,7 +6963,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 20)",
+    "hostile_strength": 29965
   },
   {
     "id": 966644509,
@@ -5340,7 +6980,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 30520
   },
   {
     "id": 350735951,
@@ -5353,7 +6997,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-21 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 22490
   },
   {
     "id": 1476675021,
@@ -5366,7 +7014,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 19,
+    "hostiles_info": "Ур. 20-24 (Battleship, Interceptor)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1133522720,
@@ -5379,7 +7031,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 17996
   },
   {
     "id": 304388536,
@@ -5392,7 +7048,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 22-22 (Survey)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 65615
   },
   {
     "id": 266174576,
@@ -5405,7 +7065,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 22-22 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 113759
   },
   {
     "id": 395344716,
@@ -5418,7 +7082,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 22-22 (Survey)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 65615
   },
   {
     "id": 563050574,
@@ -5431,7 +7099,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 22-22 (Survey)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 65615
   },
   {
     "id": 1244441919,
@@ -5444,7 +7116,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 19-25 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 19)",
+    "hostile_strength": 16487
   },
   {
     "id": 1680347590,
@@ -5457,7 +7133,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 19-25 (Battleship, Explorer)",
+    "hostile_sample": "Battleship (Ур. 19)",
+    "hostile_strength": 16477
   },
   {
     "id": 1747858074,
@@ -5470,7 +7150,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 19-25 (Battleship, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 19)",
+    "hostile_strength": 16477
   },
   {
     "id": 1353263455,
@@ -5483,7 +7167,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 19-25 (Explorer, Survey)",
+    "hostile_sample": "Survey (Ур. 19)",
+    "hostile_strength": 16487
   },
   {
     "id": 1396202980,
@@ -5496,7 +7184,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Battleship, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 502974835,
@@ -5509,7 +7201,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-21 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 22490
   },
   {
     "id": 1759717590,
@@ -5522,7 +7218,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 20)",
+    "hostile_strength": 22502
   },
   {
     "id": 2038174376,
@@ -5535,7 +7235,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Battleship, Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1101989561,
@@ -5548,7 +7252,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 20817
   },
   {
     "id": 1332140800,
@@ -5561,7 +7269,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 20,
+    "hostiles_info": "Ур. 20-25 (Explorer, Battleship, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 692177966,
@@ -5574,7 +7286,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 21-25 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 49187
   },
   {
     "id": 2095413858,
@@ -5587,7 +7303,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Battleship, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 846029245,
@@ -5600,7 +7320,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-21 (Survey)",
+    "hostile_sample": "Survey (Ур. 20)",
+    "hostile_strength": 22502
   },
   {
     "id": 39,
@@ -5613,7 +7337,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Explorer, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1413597356,
@@ -5626,7 +7354,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 22490
   },
   {
     "id": 1660792724,
@@ -5639,7 +7371,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 20)",
+    "hostile_strength": 20817
   },
   {
     "id": 1218057507,
@@ -5652,7 +7388,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Explorer, Battleship, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 1389910171,
@@ -5665,7 +7405,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-21 (Battleship)",
+    "hostile_sample": "Battleship (Ур. 20)",
+    "hostile_strength": 22225
   },
   {
     "id": 158586489,
@@ -5678,7 +7422,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-25 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 20)",
+    "hostile_strength": 21071
   },
   {
     "id": 1358992189,
@@ -5691,7 +7439,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 20-26 (Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 20)",
+    "hostile_strength": 19326
   },
   {
     "id": 932520389,
@@ -5704,7 +7456,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 21-25 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 49187
   },
   {
     "id": 109845501,
@@ -5717,7 +7473,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 23 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Arcadion",
+    "hostile_strength": 345000
   },
   {
     "id": 1089341585,
@@ -5730,7 +7490,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 23 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Esteria",
+    "hostile_strength": 345000
   },
   {
     "id": 520305106,
@@ -5743,7 +7507,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 23 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Izanami",
+    "hostile_strength": 345000
   },
   {
     "id": 428000719,
@@ -5756,7 +7524,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 21-25 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 49187
   },
   {
     "id": 101146473,
@@ -5769,7 +7541,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 21-25 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 49187
   },
   {
     "id": 1656845244,
@@ -5782,7 +7558,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 21-25 (Survey)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 49187
   },
   {
     "id": 1267482232,
@@ -5795,7 +7575,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 23 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Salara",
+    "hostile_strength": 345000
   },
   {
     "id": 1162578684,
@@ -5808,7 +7592,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 21,
+    "hostiles_info": "Ур. 23 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Tenzen-1029",
+    "hostile_strength": 345000
   },
   {
     "id": 1775451055,
@@ -5821,7 +7609,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 21)",
+    "hostile_strength": 23149
   },
   {
     "id": 1379808121,
@@ -5834,7 +7626,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 23224
   },
   {
     "id": 382708415,
@@ -5847,7 +7643,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 21)",
+    "hostile_strength": 23149
   },
   {
     "id": 1691252927,
@@ -5860,7 +7660,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-26 (Battleship, Survey, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 23247
   },
   {
     "id": 1881017308,
@@ -5873,7 +7677,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-25 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 21)",
+    "hostile_strength": 29034
   },
   {
     "id": 1245655537,
@@ -5886,7 +7694,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 28995
   },
   {
     "id": 1343179689,
@@ -5899,7 +7711,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Interceptor, Explorer, Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 21)",
+    "hostile_strength": 37869
   },
   {
     "id": 113352984,
@@ -5912,7 +7728,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-25 (Battleship, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 28714
   },
   {
     "id": 1731519518,
@@ -5925,7 +7745,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-26 (Battleship, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 21)",
+    "hostile_strength": 38696
   },
   {
     "id": 168803971,
@@ -5938,7 +7762,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 21-27 (Battleship, Explorer, Interceptor, Armada Target)",
+    "hostile_sample": "Interceptor (Ур. 21)",
+    "hostile_strength": 25239
   },
   {
     "id": 2023046687,
@@ -5951,7 +7779,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Forin",
+    "hostile_strength": 360000
   },
   {
     "id": 1925134276,
@@ -5964,7 +7796,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Mira",
+    "hostile_strength": 360000
   },
   {
     "id": 1302179595,
@@ -5977,7 +7813,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Perek",
+    "hostile_strength": 360000
   },
   {
     "id": 576710371,
@@ -5990,7 +7830,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24-24 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 191377
   },
   {
     "id": 1435801782,
@@ -6003,7 +7847,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24-24 (Survey)",
+    "hostile_sample": "SWARM CLUSTER",
+    "hostile_strength": 191377
   },
   {
     "id": 1405478861,
@@ -6016,7 +7864,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 22,
+    "hostiles_info": "Ур. 24 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Bettany",
+    "hostile_strength": 360000
   },
   {
     "id": 1975097390,
@@ -6029,7 +7881,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Jiiny",
+    "hostile_strength": 375000
   },
   {
     "id": 1365537928,
@@ -6042,7 +7898,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Alpha",
+    "hostile_strength": 375000
   },
   {
     "id": 41886035,
@@ -6055,7 +7915,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Beta",
+    "hostile_strength": 375000
   },
   {
     "id": 1919090418,
@@ -6068,7 +7932,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Delta",
+    "hostile_strength": 375000
   },
   {
     "id": 1725723105,
@@ -6081,7 +7949,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Epsilon",
+    "hostile_strength": 375000
   },
   {
     "id": 1183918696,
@@ -6094,7 +7966,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Gamma",
+    "hostile_strength": 375000
   },
   {
     "id": 760261923,
@@ -6107,7 +7983,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": true
+    "is_deep_space": true,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Oprelian Zeta",
+    "hostile_strength": 375000
   },
   {
     "id": 822340445,
@@ -6120,7 +8000,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Omega VIII",
+    "hostile_strength": 375000
   },
   {
     "id": 1810191318,
@@ -6133,7 +8017,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Explorer, Survey)",
+    "hostile_sample": "Explorer (Ур. 22)",
+    "hostile_strength": 30371
   },
   {
     "id": 341686306,
@@ -6146,7 +8034,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Stiirat",
+    "hostile_strength": 375000
   },
   {
     "id": 223913367,
@@ -6159,7 +8051,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Taranka",
+    "hostile_strength": 375000
   },
   {
     "id": 1116211514,
@@ -6172,7 +8068,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Zeta4",
+    "hostile_strength": 375000
   },
   {
     "id": 1691770428,
@@ -6185,7 +8085,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 24-26 (Survey)",
+    "hostile_sample": "Survey (Ур. 24)",
+    "hostile_strength": 50084
   },
   {
     "id": 255461687,
@@ -6198,7 +8102,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Battleship, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 22)",
+    "hostile_strength": 30371
   },
   {
     "id": 1417222872,
@@ -6211,7 +8119,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-27 (Explorer, Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 30480
   },
   {
     "id": 1515339388,
@@ -6224,7 +8136,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer)",
+    "hostile_sample": "Explorer (Ур. 22)",
+    "hostile_strength": 30371
   },
   {
     "id": 739609161,
@@ -6237,7 +8153,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Explorer, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 22)",
+    "hostile_strength": 35825
   },
   {
     "id": 806920942,
@@ -6250,7 +8170,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-27 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 30480
   },
   {
     "id": 186798495,
@@ -6263,7 +8187,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Armada Target)",
+    "hostile_sample": "Explorer (Ур. 22)",
+    "hostile_strength": 30371
   },
   {
     "id": 1710685740,
@@ -6276,7 +8204,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Interceptor)",
+    "hostile_sample": "Explorer (Ур. 22)",
+    "hostile_strength": 38156
   },
   {
     "id": 1744652289,
@@ -6289,7 +8221,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Survey)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 38115
   },
   {
     "id": 575117901,
@@ -6302,7 +8238,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25-25 (Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 25)",
+    "hostile_strength": 1406677
   },
   {
     "id": 338251357,
@@ -6315,7 +8255,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25-25 (Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 25)",
+    "hostile_strength": 1406677
   },
   {
     "id": 400016134,
@@ -6328,7 +8272,11 @@
     ],
     "has_mines": false,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25-25 (Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 25)",
+    "hostile_strength": 1406677
   },
   {
     "id": 1617490775,
@@ -6341,7 +8289,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Armada Target)",
+    "hostile_sample": "Battleship (Ур. 22)",
+    "hostile_strength": 30500
   },
   {
     "id": 892844237,
@@ -6354,7 +8306,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 22)",
+    "hostile_strength": 37755
   },
   {
     "id": 1780286771,
@@ -6367,7 +8323,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Interceptor, Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 38115
   },
   {
     "id": 897954743,
@@ -6380,7 +8340,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-26 (Survey, Armada Target)",
+    "hostile_sample": "Survey (Ур. 22)",
+    "hostile_strength": 35622
   },
   {
     "id": 1675983977,
@@ -6393,7 +8357,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 22)",
+    "hostile_strength": 35825
   },
   {
     "id": 1556190441,
@@ -6406,7 +8374,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Interceptor, Survey)",
+    "hostile_sample": "Interceptor (Ур. 22)",
+    "hostile_strength": 30747
   },
   {
     "id": 477613271,
@@ -6419,7 +8391,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Laija",
+    "hostile_strength": 375000
   },
   {
     "id": 355503878,
@@ -6432,7 +8408,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Interceptor, Survey)",
+    "hostile_sample": "Interceptor (Ур. 22)",
+    "hostile_strength": 30747
   },
   {
     "id": 1547825221,
@@ -6445,7 +8425,11 @@
     ],
     "has_mines": true,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Explorer, Interceptor)",
+    "hostile_sample": "Interceptor (Ур. 22)",
+    "hostile_strength": 30747
   },
   {
     "id": 1023784753,
@@ -6458,7 +8442,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 22-28 (Battleship, Interceptor)",
+    "hostile_sample": "Battleship (Ур. 22)",
+    "hostile_strength": 37755
   },
   {
     "id": 182699358,
@@ -6471,7 +8459,11 @@
     ],
     "has_mines": false,
     "has_missions": true,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Beta Assembly",
+    "hostile_strength": 375000
   },
   {
     "id": 557318096,
@@ -6484,7 +8476,11 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Klosi",
+    "hostile_strength": 375000
   },
   {
     "id": 29307090,
@@ -6497,6 +8493,10 @@
     ],
     "has_mines": true,
     "has_missions": false,
-    "is_deep_space": false
+    "is_deep_space": false,
+    "recommended_mission_level": 23,
+    "hostiles_info": "Ур. 25 (Патрули и Спецкорабли)",
+    "hostile_sample": "Патрульный флот Marzer",
+    "hostile_strength": 375000
   }
 ]

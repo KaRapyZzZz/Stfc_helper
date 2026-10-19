@@ -1,26 +1,28 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Shield, Rocket, MapPin, Sparkles, ExternalLink, Filter } from 'lucide-react';
+import { Search, Shield, Rocket, MapPin, Sparkles, ExternalLink, Skull, Swords, Compass } from 'lucide-react';
 import officersData from '../data/officers.json';
 import shipsData from '../data/ships.json';
 import systemsData from '../data/systems.json';
+import hostilesData from '../data/hostiles.json';
 import synergiesData from '../data/synergies.json';
 import OfficerDetailModal from './OfficerDetailModal';
+import ShipDetailModal from './ShipDetailModal';
+import SystemDetailModal from './SystemDetailModal';
+import HostileDetailModal from './HostileDetailModal';
+import { openExternalUrl } from '../utils/openLink';
 
 export default function ExplorerTab() {
-  const [subTab, setSubTab] = useState('officers'); // 'officers', 'ships', 'systems', 'synergies'
+  const [subTab, setSubTab] = useState('officers'); // 'officers', 'ships', 'hostiles', 'systems', 'synergies'
   const [search, setSearch] = useState('');
   const [classFilter, setClassFilter] = useState('All');
   const [rarityFilter, setRarityFilter] = useState('All');
   const [hullFilter, setHullFilter] = useState('All');
-  const [selectedOfficer, setSelectedOfficer] = useState(null);
 
-  const openUrl = (url) => {
-    if (window.electronAPI && window.electronAPI.openExternal) {
-      window.electronAPI.openExternal(url);
-    } else {
-      window.open(url, '_blank');
-    }
-  };
+  // Modals
+  const [selectedOfficer, setSelectedOfficer] = useState(null);
+  const [selectedShip, setSelectedShip] = useState(null);
+  const [selectedSystem, setSelectedSystem] = useState(null);
+  const [selectedHostile, setSelectedHostile] = useState(null);
 
   // Filtered Officers
   const filteredOfficers = useMemo(() => {
@@ -45,21 +47,35 @@ export default function ExplorerTab() {
     });
   }, [search, hullFilter, rarityFilter]);
 
+  // Filtered Hostiles
+  const filteredHostiles = useMemo(() => {
+    return hostilesData.filter(h => {
+      const matchSearch = !search || 
+        h.name.toLowerCase().includes(search.toLowerCase()) ||
+        (h.systems && h.systems.some(sys => sys.toLowerCase().includes(search.toLowerCase())));
+      const matchHull = hullFilter === 'All' || h.hull_type === hullFilter;
+      return matchSearch && matchHull;
+    });
+  }, [search, hullFilter]);
+
   // Filtered Systems
   const filteredSystems = useMemo(() => {
     return systemsData.filter(sys => {
-      return !search || sys.name.toLowerCase().includes(search.toLowerCase());
+      return !search || 
+        sys.name.toLowerCase().includes(search.toLowerCase()) ||
+        (sys.hostiles_info && sys.hostiles_info.toLowerCase().includes(search.toLowerCase()));
     });
   }, [search]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
       {/* Sub Tabs Bar */}
-      <div className="glass-panel" style={{ padding: '12px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <div style={{ display: 'flex', gap: '10px' }}>
+      <div className="glass-panel" style={{ padding: '12px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px' }}>
+        <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
           {[
             { id: 'officers', label: `Офицеры (${officersData.length})`, icon: Shield, color: '#38bdf8' },
             { id: 'ships', label: `Корабли (${shipsData.length})`, icon: Rocket, color: '#f59e0b' },
+            { id: 'hostiles', label: `Враги / Противники (${hostilesData.length})`, icon: Skull, color: '#ef4444' },
             { id: 'systems', label: `Звездные Системы (${systemsData.length})`, icon: MapPin, color: '#10b981' },
             { id: 'synergies', label: `Мета-Синергии (${synergiesData.length})`, icon: Sparkles, color: '#a855f7' }
           ].map(tab => {
@@ -93,12 +109,12 @@ export default function ExplorerTab() {
 
         {/* Live stfc.space button */}
         <button
-          onClick={() => openUrl(`https://stfc.space/${subTab === 'systems' ? 'systems' : subTab === 'ships' ? 'ships' : 'officers'}`)}
+          onClick={() => openExternalUrl(`https://stfc.space/${subTab === 'systems' ? 'systems' : subTab === 'ships' ? 'ships' : subTab === 'hostiles' ? 'hostiles' : 'officers'}`)}
           style={{
             display: 'flex',
             alignItems: 'center',
             gap: '6px',
-            padding: '8px 12px',
+            padding: '8px 14px',
             borderRadius: '6px',
             background: 'transparent',
             border: '1px solid rgba(56, 189, 248, 0.3)',
@@ -162,36 +178,22 @@ export default function ExplorerTab() {
           </>
         )}
 
-        {subTab === 'ships' && (
-          <>
-            <select
-              value={hullFilter}
-              onChange={(e) => setHullFilter(e.target.value)}
-              style={{ padding: '8px 12px', borderRadius: '8px', background: '#0f172a', border: '1px solid rgba(255,255,255,0.1)', color: '#cbd5e1', fontSize: '13px' }}
-            >
-              <option value="All">Все типы корпусов</option>
-              <option value="Interceptor">Перехватчик (Interceptor)</option>
-              <option value="Explorer">Исследователь (Explorer)</option>
-              <option value="Battleship">Линейный корабль (Battleship)</option>
-              <option value="Survey">Шахтер / Разведчик (Survey)</option>
-            </select>
-
-            <select
-              value={rarityFilter}
-              onChange={(e) => setRarityFilter(e.target.value)}
-              style={{ padding: '8px 12px', borderRadius: '8px', background: '#0f172a', border: '1px solid rgba(255,255,255,0.1)', color: '#cbd5e1', fontSize: '13px' }}
-            >
-              <option value="All">Любая редкость</option>
-              <option value="Epic">Epic</option>
-              <option value="Rare">Rare</option>
-              <option value="Uncommon">Uncommon</option>
-              <option value="Common">Common</option>
-            </select>
-          </>
+        {(subTab === 'ships' || subTab === 'hostiles') && (
+          <select
+            value={hullFilter}
+            onChange={(e) => setHullFilter(e.target.value)}
+            style={{ padding: '8px 12px', borderRadius: '8px', background: '#0f172a', border: '1px solid rgba(255,255,255,0.1)', color: '#cbd5e1', fontSize: '13px' }}
+          >
+            <option value="All">Все типы корпусов</option>
+            <option value="Interceptor">Перехватчик (Interceptor)</option>
+            <option value="Explorer">Исследователь (Explorer)</option>
+            <option value="Battleship">Линейный корабль (Battleship)</option>
+            <option value="Survey">Шахтер / Разведчик (Survey)</option>
+          </select>
         )}
       </div>
 
-      {/* Grid Content */}
+      {/* Grid: Officers */}
       {subTab === 'officers' && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '14px' }}>
           {filteredOfficers.map(officer => (
@@ -237,10 +239,26 @@ export default function ExplorerTab() {
         </div>
       )}
 
+      {/* Grid: Ships (Clickable with ShipDetailModal) */}
       {subTab === 'ships' && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '14px' }}>
           {filteredShips.map(ship => (
-            <div key={ship.id} className="glass-panel" style={{ padding: '14px', display: 'flex', gap: '14px', alignItems: 'center' }}>
+            <div 
+              key={ship.id} 
+              onClick={() => setSelectedShip(ship)}
+              className="glass-panel" 
+              style={{ 
+                padding: '14px', 
+                display: 'flex', 
+                gap: '14px', 
+                alignItems: 'center',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                border: '1px solid rgba(255, 255, 255, 0.08)'
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#f59e0b'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
               <img
                 src={ship.image}
                 alt={ship.name}
@@ -256,7 +274,7 @@ export default function ExplorerTab() {
                   </span>
                 </div>
                 <div style={{ fontSize: '11px', color: '#94a3b8' }}>
-                  Чертежи: {ship.blueprints_required || 'N/A'} • Макс тир: {ship.max_tier}
+                  Чертежи: {ship.blueprints_required || 'Спец.'} • Клик для инфо →
                 </div>
               </div>
             </div>
@@ -264,28 +282,100 @@ export default function ExplorerTab() {
         </div>
       )}
 
-      {subTab === 'systems' && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
-          {filteredSystems.map(sys => (
-            <div key={sys.id} className="glass-panel" style={{ padding: '14px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '6px' }}>
-                <div style={{ fontSize: '15px', fontWeight: '700', color: '#f8fafc' }}>{sys.name}</div>
-                <span className="badge badge-rare" style={{ fontSize: '10px' }}>Ур. {sys.level}</span>
+      {/* Grid: Hostiles (New Section! Clickable with HostileDetailModal) */}
+      {subTab === 'hostiles' && (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '14px' }}>
+          {filteredHostiles.map(hostile => (
+            <div
+              key={hostile.id}
+              onClick={() => setSelectedHostile(hostile)}
+              className="glass-panel"
+              style={{
+                padding: '16px',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                border: '1px solid rgba(255, 255, 255, 0.08)',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '8px'
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#ef4444'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                <div style={{ fontSize: '15px', fontWeight: '700', color: '#f8fafc' }}>{hostile.name}</div>
+                <span className="badge" style={{ background: 'rgba(239, 68, 68, 0.2)', color: '#f87171', border: '1px solid rgba(239, 68, 68, 0.4)' }}>
+                  Ур. {hostile.level}
+                </span>
               </div>
-              <div style={{ fontSize: '12px', color: '#38bdf8', marginBottom: '4px' }}>
-                Варп-дальность: {sys.warp}
+
+              <div style={{ display: 'flex', gap: '8px', fontSize: '12px' }}>
+                <span className="badge badge-rare" style={{ fontSize: '10px' }}>{hostile.hull_type}</span>
+                <span style={{ color: '#f87171', fontWeight: '600' }}>
+                  Сила: ~{hostile.strength ? hostile.strength.toLocaleString() : 'N/A'}
+                </span>
               </div>
-              <div style={{ fontSize: '11px', color: '#64748b' }}>
-                Координаты: [{sys.coords[0]}, {sys.coords[1]}]
+
+              {/* Systems list */}
+              <div style={{ fontSize: '11px', color: '#94a3b8', marginTop: '4px' }}>
+                <strong style={{ color: '#cbd5e1' }}>Системы: </strong>
+                {hostile.systems && hostile.systems.length > 0 
+                  ? hostile.systems.slice(0, 3).join(', ') + (hostile.systems.length > 3 ? ` (+еще ${hostile.systems.length - 3})` : '')
+                  : 'Патрулирует приграничный космос'}
               </div>
-              {sys.has_mines && (
-                <div style={{ fontSize: '10px', color: '#34d399', marginTop: '6px' }}>✓ Шахты ресурсов</div>
-              )}
+
+              <div style={{ fontSize: '10px', color: '#38bdf8', alignSelf: 'flex-end', marginTop: '4px' }}>
+                Подробнее о противнике →
+              </div>
             </div>
           ))}
         </div>
       )}
 
+      {/* Grid: Systems (Clickable with SystemDetailModal) */}
+      {subTab === 'systems' && (
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '14px' }}>
+          {filteredSystems.map(sys => (
+            <div 
+              key={sys.id} 
+              onClick={() => setSelectedSystem(sys)}
+              className="glass-panel" 
+              style={{ 
+                padding: '16px',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                border: '1px solid rgba(255, 255, 255, 0.08)'
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#10b981'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.08)'; e.currentTarget.style.transform = 'translateY(0)'; }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '6px' }}>
+                <div style={{ fontSize: '16px', fontWeight: '700', color: '#f8fafc' }}>{sys.name}</div>
+                <span className="badge badge-rare" style={{ fontSize: '10px' }}>Ур. {sys.level}</span>
+              </div>
+
+              <div style={{ fontSize: '12px', color: '#38bdf8', marginBottom: '4px' }}>
+                Варп-дальность: {sys.warp}
+              </div>
+
+              <div style={{ fontSize: '11px', color: '#34d399', marginBottom: '4px' }}>
+                Миссии: Игроки Ур. {sys.recommended_mission_level || Math.max(1, sys.level - 2)}+
+              </div>
+
+              <div style={{ fontSize: '11px', color: '#94a3b8', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                Враги: {sys.hostiles_info || `Патрули Ур. ${sys.level}`}
+              </div>
+
+              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', color: '#64748b', marginTop: '8px' }}>
+                <span>Координаты: [{sys.coords[0]}, {sys.coords[1]}]</span>
+                <span style={{ color: '#10b981' }}>Клик для инфо →</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Grid: Synergies */}
       {subTab === 'synergies' && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))', gap: '16px' }}>
           {synergiesData.map(syn => (
@@ -309,8 +399,18 @@ export default function ExplorerTab() {
         </div>
       )}
 
+      {/* Unified Modals for All Entities */}
       {selectedOfficer && (
         <OfficerDetailModal officer={selectedOfficer} onClose={() => setSelectedOfficer(null)} />
+      )}
+      {selectedShip && (
+        <ShipDetailModal ship={selectedShip} onClose={() => setSelectedShip(null)} />
+      )}
+      {selectedSystem && (
+        <SystemDetailModal system={selectedSystem} onClose={() => setSelectedSystem(null)} />
+      )}
+      {selectedHostile && (
+        <HostileDetailModal hostile={selectedHostile} onClose={() => setSelectedHostile(null)} />
       )}
     </div>
   );

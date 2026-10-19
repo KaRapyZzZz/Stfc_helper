@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Shield, Sparkles, X, ArrowLeftRight, Trash2, CheckCircle2, AlertCircle, Search, Users } from 'lucide-react';
+import { Shield, Sparkles, X, ArrowLeftRight, Trash2, CheckCircle2, Search, Users, Anchor, Info, Award } from 'lucide-react';
 import officersData from '../data/officers.json';
 import synergiesData from '../data/synergies.json';
 
@@ -10,7 +10,7 @@ export default function CalculatorTab() {
   const [belowDecks, setBelowDecks] = useState([null, null, null]);
 
   // Picker drawer state
-  const [activeSlotTarget, setActiveSlotTarget] = useState(null); // 'captain', 'left', 'right', 'bd-0', 'bd-1', 'bd-2'
+  const [activeSlotTarget, setActiveSlotTarget] = useState(null);
   const [pickerFilter, setPickerFilter] = useState('');
   const [pickerClass, setPickerClass] = useState('All');
   const [pickerRarity, setPickerRarity] = useState('All');
@@ -18,6 +18,10 @@ export default function CalculatorTab() {
   // Dragging state
   const [draggedOfficer, setDraggedOfficer] = useState(null);
   const [isDragOverSlot, setIsDragOverSlot] = useState(null);
+
+  // Hovered officer for tooltip / characteristics
+  const [hoveredOfficer, setHoveredOfficer] = useState(null);
+  const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
 
   // Initialize with PMC preset
   React.useEffect(() => {
@@ -29,7 +33,20 @@ export default function CalculatorTab() {
     if (chen) setOfficerRight(chen);
   }, []);
 
-  // Compute Synergy & Bonuses
+  // Calculate synergy values for Left and Right connectors
+  const leftSynergyVal = useMemo(() => {
+    if (!captain || !officerLeft) return 0;
+    if (officerLeft.group && captain.group && officerLeft.group === captain.group) return 30;
+    return 20;
+  }, [captain, officerLeft]);
+
+  const rightSynergyVal = useMemo(() => {
+    if (!captain || !officerRight) return 0;
+    if (officerRight.group && captain.group && officerRight.group === captain.group) return 30;
+    return 20;
+  }, [captain, officerRight]);
+
+  // Compute overall Synergy & Bonuses
   const synergyEvaluation = useMemo(() => {
     if (!captain) {
       return {
@@ -44,10 +61,7 @@ export default function CalculatorTab() {
     let synergyPercent = 0;
     const effects = [];
 
-    // Check Bridge synergy
-    // If left officer matches class or group
     if (officerLeft) {
-      const classMatch = officerLeft.class !== captain.class; // In STFC diverse classes often trigger captain synergy
       const groupMatch = officerLeft.group && captain.group && officerLeft.group === captain.group;
       if (groupMatch) {
         synergyPercent += 30;
@@ -58,7 +72,6 @@ export default function CalculatorTab() {
       }
     }
 
-    // If right officer matches class or group
     if (officerRight) {
       const groupMatch = officerRight.group && captain.group && officerRight.group === captain.group;
       if (groupMatch) {
@@ -70,7 +83,7 @@ export default function CalculatorTab() {
       }
     }
 
-    // Check special known presets
+    // Special presets
     const capName = captain.name.toLowerCase();
     const lName = officerLeft ? officerLeft.name.toLowerCase() : '';
     const rName = officerRight ? officerRight.name.toLowerCase() : '';
@@ -95,8 +108,8 @@ export default function CalculatorTab() {
 
     return {
       percent: Math.min(100, synergyPercent),
-      label: synergyPercent >= 100 ? 'МАКСИМАЛЬНАЯ СИНЕРГИЯ' : synergyPercent > 0 ? `СИНЕРГИЯ МОСТИКА: +${synergyPercent}%` : 'БЕЗ СИНЕРГИИ',
-      details: matchedPreset ? matchedPreset.description : `Текущий экипаж обеспечивает +${synergyPercent}% к капитанскому маневру ${captain.name}.`,
+      label: synergyPercent >= 100 ? 'МАКСИМАЛЬНАЯ СИНЕРГИЯ (+100%)' : synergyPercent > 0 ? `СИНЕРГИЯ МОСТИКА: +${synergyPercent}%` : 'БЕЗ СИНЕРГИИ',
+      details: matchedPreset ? matchedPreset.description : `Текущий экипаж обеспечивает +${synergyPercent}% к капитанскому маневру офицера ${captain.name}.`,
       specialPreset: matchedPreset,
       activeEffects: effects
     };
@@ -142,7 +155,6 @@ export default function CalculatorTab() {
     }
   };
 
-  // Place officer in slot
   const placeOfficerInSlot = (slotKey, officer) => {
     if (slotKey === 'captain') setCaptain(officer);
     else if (slotKey === 'left') setOfficerLeft(officer);
@@ -180,20 +192,46 @@ export default function CalculatorTab() {
     }
   };
 
-  // Filtered officers for picker
-  const filteredPickerOfficers = useMemo(() => {
-    return officersData.filter(o => {
-      const matchesSearch = !pickerFilter || 
-        o.name.toLowerCase().includes(pickerFilter.toLowerCase()) ||
-        o.group.toLowerCase().includes(pickerFilter.toLowerCase()) ||
-        o.faction.toLowerCase().includes(pickerFilter.toLowerCase());
-      const matchesClass = pickerClass === 'All' || o.class === pickerClass;
-      const matchesRarity = pickerRarity === 'All' || o.rarity === pickerRarity;
-      return matchesSearch && matchesClass && matchesRarity;
-    });
-  }, [pickerFilter, pickerClass, pickerRarity]);
+  // Tooltip mouse handlers
+  const handleOfficerMouseEnter = (e, officer) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setTooltipPos({ x: rect.right + 12, y: rect.top });
+    setHoveredOfficer(officer);
+  };
 
-  // Slot component renderer
+  const handleOfficerMouseLeave = () => {
+    setHoveredOfficer(null);
+  };
+
+  // Filter & SORT officers for picker (SYNERGY OFFICERS FIRST!)
+  const filteredPickerOfficers = useMemo(() => {
+    return officersData
+      .filter(o => {
+        const matchesSearch = !pickerFilter || 
+          o.name.toLowerCase().includes(pickerFilter.toLowerCase()) ||
+          o.group.toLowerCase().includes(pickerFilter.toLowerCase()) ||
+          o.faction.toLowerCase().includes(pickerFilter.toLowerCase());
+        const matchesClass = pickerClass === 'All' || o.class === pickerClass;
+        const matchesRarity = pickerRarity === 'All' || o.rarity === pickerRarity;
+        return matchesSearch && matchesClass && matchesRarity;
+      })
+      .map(o => {
+        let synergyScore = 0;
+        let synergyBadge = null;
+        if (captain && o.id !== captain.id) {
+          if (o.group && captain.group && o.group === captain.group) {
+            synergyScore = 200; // top priority
+            synergyBadge = '+30% Синергия группы';
+          } else {
+            synergyScore = 50;
+            synergyBadge = '+20% Синергия мостика';
+          }
+        }
+        return { ...o, synergyScore, synergyBadge };
+      })
+      .sort((a, b) => b.synergyScore - a.synergyScore);
+  }, [pickerFilter, pickerClass, pickerRarity, captain]);
+
   const renderSlot = (title, officer, slotKey, isCaptain = false) => {
     const isDragOver = isDragOverSlot === slotKey;
     const borderGlow = isDragOver ? '#38bdf8' : isCaptain ? '#f59e0b' : 'rgba(255, 255, 255, 0.15)';
@@ -208,7 +246,8 @@ export default function CalculatorTab() {
           flexDirection: 'column',
           alignItems: 'center',
           gap: '8px',
-          flex: 1
+          zIndex: 2,
+          position: 'relative'
         }}
       >
         <div style={{ fontSize: '11px', fontWeight: '700', color: isCaptain ? '#f59e0b' : '#94a3b8', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
@@ -217,13 +256,15 @@ export default function CalculatorTab() {
 
         <div
           onClick={() => setActiveSlotTarget(slotKey)}
+          onMouseEnter={(e) => officer && handleOfficerMouseEnter(e, officer)}
+          onMouseLeave={handleOfficerMouseLeave}
           style={{
-            width: isCaptain ? '130px' : '110px',
-            height: isCaptain ? '150px' : '130px',
+            width: isCaptain ? '135px' : '110px',
+            height: isCaptain ? '155px' : '130px',
             borderRadius: '14px',
-            background: officer ? 'rgba(15, 23, 42, 0.9)' : 'rgba(15, 23, 42, 0.4)',
+            background: officer ? 'rgba(15, 23, 42, 0.95)' : 'rgba(15, 23, 42, 0.4)',
             border: `2px dashed ${borderGlow}`,
-            boxShadow: isDragOver ? '0 0 25px rgba(56, 189, 248, 0.6)' : officer ? '0 4px 15px rgba(0,0,0,0.4)' : 'none',
+            boxShadow: isDragOver ? '0 0 25px rgba(56, 189, 248, 0.6)' : isCaptain ? '0 0 20px rgba(245, 158, 11, 0.25)' : '0 4px 15px rgba(0,0,0,0.4)',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -243,12 +284,38 @@ export default function CalculatorTab() {
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
+
+              {/* Below Decks icon indicator */}
+              {officer.has_below_decks && (
+                <div 
+                  style={{
+                    position: 'absolute',
+                    top: '4px',
+                    left: '4px',
+                    background: 'rgba(14, 165, 233, 0.9)',
+                    color: '#ffffff',
+                    borderRadius: '4px',
+                    padding: '2px 4px',
+                    fontSize: '9px',
+                    fontWeight: '700',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '2px',
+                    boxShadow: '0 0 6px rgba(14, 165, 233, 0.6)'
+                  }}
+                  title="Имеет способность нижней палубы (Below Deck)"
+                >
+                  <Anchor size={10} />
+                  <span>BD</span>
+                </div>
+              )}
+
               <div style={{
                 position: 'absolute',
                 bottom: 0,
                 left: 0,
                 right: 0,
-                background: 'linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 70%, transparent 100%)',
+                background: 'linear-gradient(0deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.5) 70%, transparent 100%)',
                 padding: '16px 6px 6px 6px',
                 textAlign: 'center'
               }}>
@@ -298,11 +365,11 @@ export default function CalculatorTab() {
   };
 
   return (
-    <div style={{ display: 'flex', gap: '20px' }}>
+    <div style={{ display: 'flex', gap: '20px', position: 'relative' }}>
       {/* Left: Bridge & Synergy Layout */}
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '20px' }}>
         {/* Preset Selector */}
-        <div className="glass-panel" style={{ padding: '16px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="glass-panel" style={{ padding: '16px 20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '10px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <Sparkles size={18} color="#f59e0b" />
             <span style={{ fontSize: '13px', fontWeight: '700', color: '#f8fafc' }}>ГОТОВЫЕ МЕТА-СБОРКИ:</span>
@@ -354,21 +421,114 @@ export default function CalculatorTab() {
           </div>
         </div>
 
-        {/* The Bridge (3 slots) */}
-        <div className="glass-panel-glow" style={{ padding: '24px', background: 'linear-gradient(180deg, rgba(20, 28, 48, 0.8), rgba(10, 15, 29, 0.9))' }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px' }}>
+        {/* The Bridge (With Visual Dashed Synergy Connector Lines) */}
+        <div className="glass-panel-glow" style={{ padding: '24px', background: 'linear-gradient(180deg, rgba(20, 28, 48, 0.8), rgba(10, 15, 29, 0.9))', position: 'relative' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
             <h3 style={{ fontSize: '16px', color: '#f8fafc', margin: 0, letterSpacing: '0.08em' }}>
               ГЛАВНЫЙ МОСТИК КОРАБЛЯ
             </h3>
-            <span className="badge badge-epic" style={{ padding: '4px 10px' }}>
+            <span className="badge badge-epic" style={{ padding: '4px 10px', fontSize: '12px' }}>
               {synergyEvaluation.label}
             </span>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '30px' }}>
-            {renderSlot('Офицер Мостика 1', officerLeft, 'left')}
-            {renderSlot('Капитан (Центр)', captain, 'captain', true)}
-            {renderSlot('Офицер Мостика 2', officerRight, 'right')}
+          {/* Bridge Slots Container with SVG connector lines */}
+          <div style={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '190px' }}>
+            {/* SVG Connecting Dashed Lines */}
+            <svg style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 1 }}>
+              <defs>
+                <filter id="glow-line" x="-20%" y="-20%" width="140%" height="140%">
+                  <feGaussianBlur stdDeviation="3" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+
+              {/* Left Line */}
+              {captain && officerLeft && (
+                <line
+                  x1="32%"
+                  y1="55%"
+                  x2="48%"
+                  y2="55%"
+                  stroke={leftSynergyVal >= 30 ? '#38bdf8' : '#60a5fa'}
+                  strokeWidth="3"
+                  strokeDasharray="6, 6"
+                  filter="url(#glow-line)"
+                />
+              )}
+
+              {/* Right Line */}
+              {captain && officerRight && (
+                <line
+                  x1="52%"
+                  y1="55%"
+                  x2="68%"
+                  y2="55%"
+                  stroke={rightSynergyVal >= 30 ? '#38bdf8' : '#60a5fa'}
+                  strokeWidth="3"
+                  strokeDasharray="6, 6"
+                  filter="url(#glow-line)"
+                />
+              )}
+            </svg>
+
+            {/* Left Slot */}
+            <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+              {renderSlot('Офицер Мостика 1', officerLeft, 'left')}
+            </div>
+
+            {/* Left Synergy Value Pill */}
+            {captain && officerLeft && (
+              <div style={{
+                position: 'absolute',
+                left: '38%',
+                top: '50%',
+                transform: 'translate(-50%, -50%)',
+                background: leftSynergyVal >= 30 ? 'rgba(56, 189, 248, 0.9)' : 'rgba(30, 58, 138, 0.9)',
+                color: '#ffffff',
+                padding: '3px 8px',
+                borderRadius: '12px',
+                fontSize: '11px',
+                fontWeight: '800',
+                boxShadow: '0 0 10px rgba(56, 189, 248, 0.6)',
+                zIndex: 3
+              }}>
+                +{leftSynergyVal}%
+              </div>
+            )}
+
+            {/* Center Captain Slot */}
+            <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+              {renderSlot('Капитан (Центр)', captain, 'captain', true)}
+            </div>
+
+            {/* Right Synergy Value Pill */}
+            {captain && officerRight && (
+              <div style={{
+                position: 'absolute',
+                left: '62%',
+                top: '50%',
+                transform: 'translate(-50%, -50%)',
+                background: rightSynergyVal >= 30 ? 'rgba(56, 189, 248, 0.9)' : 'rgba(30, 58, 138, 0.9)',
+                color: '#ffffff',
+                padding: '3px 8px',
+                borderRadius: '12px',
+                fontSize: '11px',
+                fontWeight: '800',
+                boxShadow: '0 0 10px rgba(56, 189, 248, 0.6)',
+                zIndex: 3
+              }}>
+                +{rightSynergyVal}%
+              </div>
+            )}
+
+            {/* Right Slot */}
+            <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+              {renderSlot('Офицер Мостика 2', officerRight, 'right')}
+            </div>
           </div>
 
           {/* Swap button between wing officers */}
@@ -423,17 +583,20 @@ export default function CalculatorTab() {
 
         {/* Below Decks Slots */}
         <div className="glass-panel" style={{ padding: '18px 24px' }}>
-          <h4 style={{ fontSize: '14px', color: '#94a3b8', marginBottom: '14px', letterSpacing: '0.05em' }}>
-            НИЖНИЕ ПАЛУБЫ (BELOW DECKS)
-          </h4>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '14px' }}>
+            <Anchor size={16} color="#38bdf8" />
+            <h4 style={{ fontSize: '14px', color: '#94a3b8', margin: 0, letterSpacing: '0.05em' }}>
+              НИЖНИЕ ПАЛУБЫ (BELOW DECKS) — СПОСОБНОСТИ СТАТОВ
+            </h4>
+          </div>
           <div style={{ display: 'flex', gap: '20px', justifyContent: 'center' }}>
-            {belowDecks.map((bdOff, i) => renderSlot(`Слот ${i + 1}`, bdOff, `bd-${i}`))}
+            {belowDecks.map((bdOff, i) => renderSlot(`Палуба ${i + 1}`, bdOff, `bd-${i}`))}
           </div>
         </div>
       </div>
 
       {/* Right: Drag & Drop Officer Palette / Search Drawer */}
-      <div className="glass-panel" style={{ width: '380px', display: 'flex', flexDirection: 'column', height: 'calc(100vh - 180px)', padding: '16px' }}>
+      <div className="glass-panel" style={{ width: '400px', display: 'flex', flexDirection: 'column', height: 'calc(100vh - 180px)', padding: '16px' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
             <Users size={18} color="#38bdf8" />
@@ -441,7 +604,11 @@ export default function CalculatorTab() {
               ОФИЦЕРЫ ({filteredPickerOfficers.length})
             </h3>
           </div>
-          <span style={{ fontSize: '11px', color: '#64748b' }}>Перетяните на мостик</span>
+          {captain && (
+            <span className="badge badge-rare" style={{ fontSize: '9px' }}>
+              Синергии подняты наверх ↑
+            </span>
+          )}
         </div>
 
         {/* Search input in palette */}
@@ -494,6 +661,14 @@ export default function CalculatorTab() {
               key={officer.id}
               draggable
               onDragStart={() => handleDragStart(officer)}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = '#38bdf8';
+                handleOfficerMouseEnter(e, officer);
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = officer.synergyScore > 50 ? 'rgba(56, 189, 248, 0.4)' : 'rgba(255, 255, 255, 0.06)';
+                handleOfficerMouseLeave();
+              }}
               onClick={() => {
                 if (activeSlotTarget) {
                   placeOfficerInSlot(activeSlotTarget, officer);
@@ -503,31 +678,62 @@ export default function CalculatorTab() {
               style={{
                 padding: '8px 10px',
                 borderRadius: '8px',
-                background: 'rgba(15, 23, 42, 0.6)',
-                border: '1px solid rgba(255, 255, 255, 0.06)',
+                background: officer.synergyScore > 50 ? 'linear-gradient(90deg, rgba(56, 189, 248, 0.15), rgba(15, 23, 42, 0.7))' : 'rgba(15, 23, 42, 0.6)',
+                border: officer.synergyScore > 50 ? '1px solid rgba(56, 189, 248, 0.4)' : '1px solid rgba(255, 255, 255, 0.06)',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '10px',
                 cursor: 'grab',
-                transition: 'all 0.15s'
+                transition: 'all 0.15s',
+                position: 'relative'
               }}
-              onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#38bdf8'; e.currentTarget.style.background = 'rgba(56, 189, 248, 0.08)'; }}
-              onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.06)'; e.currentTarget.style.background = 'rgba(15, 23, 42, 0.6)'; }}
             >
-              <img
-                src={officer.image}
-                alt={officer.name}
-                style={{ width: '40px', height: '40px', borderRadius: '6px', objectFit: 'cover', background: '#0a0d14' }}
-                onError={(e) => { e.target.style.display = 'none'; }}
-              />
+              <div style={{ position: 'relative' }}>
+                <img
+                  src={officer.image}
+                  alt={officer.name}
+                  style={{ width: '42px', height: '42px', borderRadius: '6px', objectFit: 'cover', background: '#0a0d14' }}
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+                {officer.has_below_decks && (
+                  <div
+                    style={{
+                      position: 'absolute',
+                      bottom: '-2px',
+                      right: '-2px',
+                      background: '#0284c7',
+                      color: '#ffffff',
+                      borderRadius: '50%',
+                      width: '16px',
+                      height: '16px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      boxShadow: '0 0 5px rgba(0,0,0,0.8)'
+                    }}
+                    title="Имеет способность нижней палубы (Below Deck)"
+                  >
+                    <Anchor size={9} />
+                  </div>
+                )}
+              </div>
+
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: '13px', fontWeight: '700', color: '#f8fafc', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                  {officer.name}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ fontSize: '13px', fontWeight: '700', color: '#f8fafc', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    {officer.name}
+                  </span>
+                  {officer.synergyBadge && (
+                    <span className="badge badge-epic" style={{ fontSize: '8px', padding: '1px 4px' }}>
+                      {officer.synergyBadge}
+                    </span>
+                  )}
                 </div>
                 <div style={{ fontSize: '10px', color: '#94a3b8' }}>
                   {officer.class} • {officer.rarity}
                 </div>
               </div>
+
               <span className="badge" style={{ fontSize: '9px', background: 'rgba(255,255,255,0.06)', color: '#64748b' }}>
                 {officer.faction}
               </span>
@@ -535,6 +741,60 @@ export default function CalculatorTab() {
           ))}
         </div>
       </div>
+
+      {/* Floating Hover Tooltip for Officer Stats & Abilities */}
+      {hoveredOfficer && (
+        <div
+          className="glass-panel-glow"
+          style={{
+            position: 'fixed',
+            left: `${Math.min(window.innerWidth - 320, tooltipPos.x)}px`,
+            top: `${Math.min(window.innerHeight - 280, Math.max(20, tooltipPos.y - 40))}px`,
+            width: '300px',
+            background: 'rgba(10, 15, 29, 0.95)',
+            border: '1px solid rgba(56, 189, 248, 0.5)',
+            borderRadius: '12px',
+            padding: '14px',
+            zIndex: 9999,
+            pointerEvents: 'none',
+            boxShadow: '0 10px 25px rgba(0,0,0,0.8), 0 0 15px rgba(56, 189, 248, 0.2)'
+          }}
+        >
+          <div style={{ display: 'flex', gap: '10px', alignItems: 'center', marginBottom: '8px' }}>
+            <img 
+              src={hoveredOfficer.image} 
+              alt={hoveredOfficer.name} 
+              style={{ width: '42px', height: '42px', borderRadius: '8px', objectFit: 'cover' }}
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+            <div>
+              <div style={{ fontSize: '14px', fontWeight: '700', color: '#f8fafc' }}>{hoveredOfficer.name}</div>
+              <div style={{ fontSize: '11px', color: '#38bdf8' }}>{hoveredOfficer.class} • {hoveredOfficer.rarity}</div>
+            </div>
+          </div>
+
+          <div style={{ fontSize: '10px', color: '#94a3b8', textTransform: 'uppercase', marginBottom: '6px' }}>
+            Группа: {hoveredOfficer.group || 'General'}
+          </div>
+
+          <div style={{ height: '1px', background: 'rgba(255,255,255,0.08)', margin: '6px 0' }} />
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', fontSize: '11px' }}>
+            <div style={{ color: hoveredOfficer.has_captain_ability ? '#34d399' : '#64748b' }}>
+              <strong>Капитанский маневр:</strong> {hoveredOfficer.has_captain_ability ? '✓ Активен в центре' : '✗ Нет'}
+            </div>
+            <div style={{ color: hoveredOfficer.has_below_decks ? '#38bdf8' : '#64748b' }}>
+              <strong>Нижние палубы:</strong> {hoveredOfficer.has_below_decks ? '✓ Способность доступна' : '✗ Только мостик'}
+            </div>
+          </div>
+
+          {hoveredOfficer.bio && (
+            <div style={{ marginTop: '8px', fontSize: '10px', color: '#cbd5e1', lineHeight: '1.4', maxHeight: '70px', overflow: 'hidden' }}>
+              {hoveredOfficer.bio.slice(0, 150)}...
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

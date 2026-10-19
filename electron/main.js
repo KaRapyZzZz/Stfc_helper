@@ -3,6 +3,20 @@ const path = require('path');
 
 let mainWindow;
 
+// Register IPC handler to reliably open any external link in the default browser
+ipcMain.handle('open-external-url', async (event, url) => {
+  if (url && (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('mailto:'))) {
+    try {
+      await shell.openExternal(url);
+      return true;
+    } catch (err) {
+      console.error('Failed to open external url:', err);
+      return false;
+    }
+  }
+  return false;
+});
+
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1280,
@@ -16,22 +30,23 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false,
       contextIsolation: true,
-      webSecurity: false // allow loading stfc.space images and data smoothly
+      webSecurity: false // allow smooth loading of remote images and data
     }
   });
 
-  // Check if running in development mode
   const isDev = !app.isPackaged && process.argv.includes('--dev');
 
   if (isDev) {
     mainWindow.loadURL('http://localhost:5173');
-    mainWindow.webContents.openDevTools({ mode: 'detach' });
   } else {
     mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
   }
 
+  // Intercept any new window creation and forward directly to default external browser
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
-    shell.openExternal(url);
+    if (url.startsWith('http://') || url.startsWith('https://')) {
+      shell.openExternal(url);
+    }
     return { action: 'deny' };
   });
 

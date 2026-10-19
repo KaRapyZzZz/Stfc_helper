@@ -1,16 +1,7 @@
-import React from 'react';
-import { X, ExternalLink, Shield, Award, Users, Star } from 'lucide-react';
+import { openExternalUrl } from '../utils/openLink';
 
 export default function OfficerDetailModal({ officer, onClose }) {
   if (!officer) return null;
-
-  const openUrl = (url) => {
-    if (window.electronAPI && window.electronAPI.openExternal) {
-      window.electronAPI.openExternal(url);
-    } else {
-      window.open(url, '_blank');
-    }
-  };
 
   const getRarityBadge = (rarity) => {
     switch (rarity) {
@@ -171,7 +162,7 @@ export default function OfficerDetailModal({ officer, onClose }) {
         {/* Footer actions */}
         <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px' }}>
           <button
-            onClick={() => openUrl(`https://stfc.space/officers/${officer.id}`)}
+            onClick={() => openExternalUrl(`https://stfc.space/officers/${officer.id}`)}
             style={{
               display: 'flex',
               alignItems: 'center',
